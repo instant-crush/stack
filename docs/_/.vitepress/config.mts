@@ -14,7 +14,8 @@ export default defineConfig({
     outline: "deep",
     externalLinkIcon: true,
     editLink: {
-      pattern: "https://github.com/instant-crush/stack/main/docs/_/:path",
+      pattern:
+        "https://github.com/instant-crush/stack/blob/main/docs/_/src/:path",
     },
     search: {
       provider: "local",
