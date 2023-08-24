@@ -1,0 +1,30 @@
+name: l10n
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl:
+  bloc:
+  flutter_bloc:
+  hydrated_bloc:
+  path_provider:
+  go_router:
+  flutter_svg:
+  cupertino_icons: ^1.0.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  bloc_test:
+  intl_translation:
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/

@@ -1,0 +1,34 @@
+{
+  "labels": "{code, select, ar{Aрабский} de{Немецкий} en{Английский} es{Uспанский} fr{Французский} it{Uтальянский} ja{Японский} ko{Корейский} ru{Русский} zhHans{Yпрощенный Kитайский} zhHant{Tрадиционный Kитайский} other{}}",
+  "placeholder": "Привет {userName}",
+  "plurals": "оставшийся {count, plural, =0{0 секунд} =1{1 секунда} other{{count}секунды}}",
+  "genderButtonText": "нажмите, чтобы выбрать",
+  "genders": "{gender, select, male{мужской} female{женский} other{неизвестный}}",
+  "gender": "Секс: {gender, select, male{Мальчик} female{Девочка} other{Предпочитаю не говорить}}",
+  "datetimeDateButtonText": "Нажмите, чтобы выбрать дату",
+  "datetimeTimeButtonText": "Нажмите, чтобы выбрать время",
+  "iphone14Pro": "Найдосконаліший iPhone.",
+  "iphone14ProPrice": "от {price}",
+  "@iphone14ProPrice": {
+    "placeholders": {
+      "price": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 0
+        }
+      }
+    }
+  },
+  "iphone14ProBuy": "Купити",
+  "iphone14ProDisplayTitle": "6,7″ або 6,1″",
+  "iphone14ProDisplay": "Дисплей Super Retina XDR\nТехнологія ProMotion\nЗавжди ввімкнений дисплей",
+  "iphone14ProDynamicIslandFeatures": "Новий спосіб\nвзаємодії з iPhone",
+  "iphone14ProSos": "Сигнал SOS\nВиявлення аварій",
+  "iphone14ProCamera": "Система камер Pro",
+  "iphone14ProCameraFeatures": "Основна 48 Мп\nНадширококутна\nТелефото\nPhotonic Engine\nдля неймовірної деталізації\nта кольору\nАвтофокус на фронтальній\nкамері TrueDepth",
+  "iphone14ProActionMode": "Режим «Швидкий рух»\nстабілізує зйомку відео з рук",
+  "iphone14ProBattery": "До 29 годин\nвідтворення відео",
+  "iphone14ProChip": "Чип A16 Bionic",
+  "iphone14ProCellular": "Підтримка 5G"
+}

@@ -1,0 +1,61 @@
+{
+  "labels": "{code, select, ar{アラビア語} de{ドイツ人} en{英語} es{スペイン語} fr{フランス語} it{イタリアの} ja{日本語} ko{韓国語} ru{ロシア} zhHans{簡体字中国語} zhHant{繁体字中国語} other{}}",
+  "placeholder": "こんにちは {userName}",
+  "plurals": "残り {count, plural, other{{count}秒}}",
+  "genderButtonText": "クリックして選択",
+  "genders": "{gender, select, male{男} female{女性} other{未知}}",
+  "gender": "セックス: {gender, select, male{男の子} female{女の子} other{どちらかというと言いたくない}}",
+  "datetimeDateButtonText": "クリックして日付を選択します",
+  "datetimeTimeButtonText": "クリックして時間を選択します",
+  "iphone14Pro": "究極のiPhone。",
+  "iphone14ProPrice": "{price}（税込）から",
+  "@iphone14ProPrice": {
+    "placeholders": {
+      "price": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 0
+        }
+      }
+    }
+  },
+  "iphone14ProPriceInstallments": "下取りがない場合は36回\n払いで{installments}円/月",
+  "@iphone14ProPriceInstallments": {
+    "placeholders": {
+      "installments": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 0
+        }
+      }
+    }
+  },
+  "iphone14ProBuy": "購入",
+  "iphone14ProDisplayTitle": "6.7インチまたは6.1インチ",
+  "iphone14ProDisplay": "Super Retina XDRディスプレイ\nProMotionテクノロジー\n常時表示ディスプレイ",
+  "iphone14ProDynamicIslandFeatures": "新しいiPhoneの操作システム",
+  "iphone14ProSos": "緊急SOS\n衝突事故検出",
+  "iphone14ProCamera": "Proのカメラシステム",
+  "iphone14ProCameraFeatures": "48MPメイン 超広角\n望遠\n圧倒的なディテールと色彩のための\nPhotonic Engine\nオートフォーカスを搭載した\nTrueDepthフロントカメラ",
+  "iphone14ProActionMode": "手持ちでもなめらかな映像が撮れる\nアクションモード",
+  "iphone14ProBattery": "最大29時間のビデオ再生",
+  "iphone14ProChip": "A16 Bionicチップ",
+  "iphone14ProCellular": "超高速の5G携帯電話通信",
+  "iphone14ProStorage": "ストレージ。",
+  "iphone14ProStorageInfo": "必要な容量は？",
+  "iphone14ProStorageItem": "下取りがない場合は36回\n払いで{installments}円/月\nまたは{now}円（税込）",
+  "pixel7Pro": "プロ性能を\n突き詰めた\nGoogle Pixel。",
+  "pixel7ProPrice": "{price} より",
+  "pixel7ProPriceOrigin": "{price}",
+  "pixel7ProPriceSave": "{price} 引き",
+  "pixel7ProBuy": "購入",
+  "pixel7ProDisplay": "QHD+LTPO OLED スムーズ ディスプレイ\n最大 120 Hz",
+  "pixel7ProCamera": "トリプル背面カメラシステム:\n広角レンズ、ウルトラワイド レンズ、望遠レンズ",
+  "pixel7ProBattery": "5000 mAh\n24 時間以上のバッテリー駆動時間\n24 時間以上のバッテリー駆動時間\nバッテリー シェア",
+  "pixel7ProAuthenticationTitle": "バッテリー シェア",
+  "pixel7ProAuthentication": "Titan M2™ チップとセキュリティ コア\n指紋認証\n指紋認証\nVPN by Google One",
+  "pixel7ProStorageTitle": "保存容量を選択してください",
+  "pixel7ProStorageItem": "{now}"
+}

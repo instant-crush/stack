@@ -1,0 +1,35 @@
+{
+  "labels": "{code, select, ar{عربي} de{ألمانية} en{إنجليزي} es{الأسبانية} fr{فرنسي} it{الايطالية} ja{اليابانية} ko{اليابانية} ru{الروسية} zhHans{الصينية المبسطة} zhHant{الصينية التقليدية} other{}}",
+  "placeholder": "مرحبًا {userName}",
+  "plurals": "متبقي {count, plural, =0{0 ثواني} other{{count}ثانية}}",
+  "genderButtonText": "انقر للاختيار",
+  "genders": "{gender, select, male{ذكر} female{أنثى} other{مجهول}}",
+  "gender": "الجنس: {gender, select, male{ولد} female{بنت} other{افضل عدم القول}}",
+  "datetimeDateButtonText": "انقر لتحديد التاريخ",
+  "datetimeTimeButtonText": "انقر لتحديد الوقت",
+  "iphone14Pro": "iPhone على أعلى مستوى.",
+  "iphone14ProPrice": "ابتداءً من {price}",
+  "@iphone14ProPrice": {
+    "placeholders": {
+      "price": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 0
+        }
+      }
+    }
+  },
+  "iphone14ProBuy": "اشتر",
+  "iphone14ProDisplayTitle": "6.7 إنش أو 6.1 إنش",
+  "iphone14ProDisplay": "شاشة ريتنا سوبر XDR\nتكنولوجيا ProMotion\nشاشة بميزة تشغيل دوماً",
+  "iphone14ProDynamicIslandFeatures": "طريقة جديدة\nللتفاعل مع iPhone",
+  "iphone14ProSos": "ميزة طوارئ SOS\nميزة اكتشاف الاصطدام",
+  "iphone14ProCamera": "نظام كاميرات Pro",
+  "iphone14ProCameraFeatures": "كاميرا رئيسية 48MP كاميرا\nواسعة للغاية\nميزة تقريب المسافات\nمحرك Photonic Engine لمستوى\nمذهل من التفاصيل والألوان\nضبط تلقائي للعدسة في كاميرا\nالعمق الحقيقي الأمامية",
+  "iphone14ProActionMode": "نمط الحركة لفيديوهات مصورة\nباليد كلها سلاسة وثبات",
+  "iphone14ProBattery": "لغاية 29 ساعة\nمن تشغيل الفيديو",
+  "iphone14ProChip": "شريحة A16 بايونك",
+  "iphone14ProAuthentication": "بصمة الوجه",
+  "iphone14ProCellular": "شبكة G فائقة السرعة للاتصال\nالخلوي5"
+}
