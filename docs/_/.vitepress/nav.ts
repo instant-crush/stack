@@ -1,42 +1,43 @@
 export default [
-  { text: "Home", link: "/" },
+  { text: 'Home', link: '/' },
+  { text: 'Guide', link: '/guide' },
   {
-    text: "Computer",
+    text: 'Computer',
     items: [
       {
-        text: "langs",
+        text: 'langs',
         items: [
           {
-            text: ".dart",
-            link: "/dart/",
+            text: '.dart',
+            link: '/dart/',
           },
           {
-            text: ".rs",
-            link: "/rs/",
+            text: '.rs',
+            link: '/rs/',
           },
           {
-            text: ".sh",
-            link: "/sh/",
+            text: '.sh',
+            link: '/sh/',
           },
           {
-            text: ".ts",
-            link: "/ts/",
+            text: '.ts',
+            link: '/ts/',
           },
         ],
       },
     ],
   },
   {
-    text: "Languages",
+    text: 'Languages',
     items: [
       {
-        text: "en",
-        link: "/en/",
+        text: 'en',
+        link: '/en/',
       },
       {
-        text: "es",
-        link: "/es/",
+        text: 'es',
+        link: '/es/',
       },
     ],
   },
-];
+]
