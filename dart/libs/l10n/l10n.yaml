@@ -1,4 +1,6 @@
-arb-dir: lib/l10n
+arb-dir: lib/l10n # arb文件所在目录
+# arb文件的模板，语言代号前缀可以换，这里的前缀是app，所以其他语言的前缀也得是app，比如app_es.arb app_ja.arb
 template-arb-file: app_en.arb
+# 执行flutter gen-l10n后输出的文件名，调用翻译功能的类名是AppLocalications，语言代号前缀可以换，这里的前缀是app
 output-localization-file: app_localizations.dart
-format: true
+format: true # 格式化执行flutter gen-l10n生成的文件
