@@ -9,29 +9,7 @@
   "datetimeTimeButtonText": "クリックして時間を選択します",
   "iphone14Pro": "究極のiPhone。",
   "iphone14ProPrice": "{price}（税込）から",
-  "@iphone14ProPrice": {
-    "placeholders": {
-      "price": {
-        "type": "double",
-        "format": "currency",
-        "optionalParameters": {
-          "decimalDigits": 0
-        }
-      }
-    }
-  },
   "iphone14ProPriceInstallments": "下取りがない場合は36回\n払いで{installments}円/月",
-  "@iphone14ProPriceInstallments": {
-    "placeholders": {
-      "installments": {
-        "type": "double",
-        "format": "currency",
-        "optionalParameters": {
-          "decimalDigits": 0
-        }
-      }
-    }
-  },
   "iphone14ProBuy": "購入",
   "iphone14ProDisplayTitle": "6.7インチまたは6.1インチ",
   "iphone14ProDisplay": "Super Retina XDRディスプレイ\nProMotionテクノロジー\n常時表示ディスプレイ",

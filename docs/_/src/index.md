@@ -5,8 +5,7 @@ hero:
   text: Fucking Learning & Fucking Training
   tagline: <p class="flex items-center">Programming & Languages doc for my wife <span class="w-6 h-6 inline-block icon-[noto--face-blowing-a-kiss]" /></p><p>Powered by <a class="font-bold text-transparent bg-clip-text bg-gradient-to-l from-30% from-[#bd34fe] to-[#41d1ff]" target="_blank" href="https://vitepress.dev">VitePress</a> & <a class="font-bold text-transparent bg-clip-text bg-gradient-to-l from-30% from-[#bd34fe] to-[#ff3670]" target="_blank" href="https://mermaid.js.org">Mermaid</a></p>
   image:
-    # src: /dart/libs/l10n/lib_ios.png
-    src: <span class="text-blue-500 text-9xl icon-[majesticons--code-block]" />
+    src: /logo.svg
   actions:
     - theme: brand
       text: Get Started

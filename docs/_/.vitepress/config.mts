@@ -30,8 +30,8 @@ export default defineConfig({
       postcss,
     },
   },
+  head: [['link', { rel: 'icon', href: '/stack/favicon.ico' }]],
   themeConfig: {
-    logo: '/lib_ios.png',
     outline: 'deep',
     externalLinkIcon: true,
     editLink: {

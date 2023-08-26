@@ -9,17 +9,6 @@
   "datetimeTimeButtonText": "انقر لتحديد الوقت",
   "iphone14Pro": "iPhone على أعلى مستوى.",
   "iphone14ProPrice": "ابتداءً من {price}",
-  "@iphone14ProPrice": {
-    "placeholders": {
-      "price": {
-        "type": "double",
-        "format": "currency",
-        "optionalParameters": {
-          "decimalDigits": 0
-        }
-      }
-    }
-  },
   "iphone14ProBuy": "اشتر",
   "iphone14ProDisplayTitle": "6.7 إنش أو 6.1 إنش",
   "iphone14ProDisplay": "شاشة ريتنا سوبر XDR\nتكنولوجيا ProMotion\nشاشة بميزة تشغيل دوماً",

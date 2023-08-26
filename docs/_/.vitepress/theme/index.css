@@ -464,8 +464,8 @@
   );
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
-    theme(colors.slate.50) 70%,
-    theme(colors.slate.900) 30%
+    theme(colors.sky.600),
+    theme(colors.rose.600)
   );
   --vp-home-hero-image-filter: blur(100px);
 }
@@ -478,8 +478,8 @@
   );
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
-    theme(colors.slate.900) 70%,
-    theme(colors.slate.50) 30%
+    theme(colors.rose.400),
+    theme(colors.sky.400)
   );
 }
 

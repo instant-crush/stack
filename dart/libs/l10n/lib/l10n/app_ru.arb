@@ -9,17 +9,6 @@
   "datetimeTimeButtonText": "Нажмите, чтобы выбрать время",
   "iphone14Pro": "Найдосконаліший iPhone.",
   "iphone14ProPrice": "от {price}",
-  "@iphone14ProPrice": {
-    "placeholders": {
-      "price": {
-        "type": "double",
-        "format": "currency",
-        "optionalParameters": {
-          "decimalDigits": 0
-        }
-      }
-    }
-  },
   "iphone14ProBuy": "Купити",
   "iphone14ProDisplayTitle": "6,7″ або 6,1″",
   "iphone14ProDisplay": "Дисплей Super Retina XDR\nТехнологія ProMotion\nЗавжди ввімкнений дисплей",

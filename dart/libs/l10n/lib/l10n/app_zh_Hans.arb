@@ -8,17 +8,6 @@
   "datetimeTimeButtonText": "点击选择时间",
   "iphone14Pro": "iPhone 巅峰之作",
   "iphone14ProPriceInstallments": "{installments}/月",
-  "@iphone14ProPriceInstallments": {
-    "placeholders": {
-      "installments": {
-        "type": "double",
-        "format": "currency",
-        "optionalParameters": {
-          "decimalDigits": 0
-        }
-      }
-    }
-  },
   "iphone14ProBuy": "购买",
   "iphone14ProDisplayTitle": "6.7 或 6.1 英寸",
   "iphone14ProDisplay": "超视网膜 XDR 显示屏\nProMotion 自适应刷新率\n全天候显示",

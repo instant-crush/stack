@@ -1,19 +1,5 @@
 {
   "@@locale": "zh",
   "placeholder": "你好 {userName}",
-  "iphone14ProPrice": "{price} 起",
-  "@iphone14ProPrice": {
-    "placeholders": {
-      "price": {
-        "example": "zh",
-        "type": "double",
-        "format": "currency",
-        "isCustomDateFormat": true,
-        "optionalParameters": {
-          "decimalDigits": 0,
-          "locale": "zhHans"
-        }
-      }
-    }
-  }
+  "iphone14ProPrice": "{price} 起"
 }
