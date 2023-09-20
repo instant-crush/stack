@@ -51,4 +51,26 @@ export default {
       items: [],
     },
   ],
+  '/en/': [
+    {
+      text: 'Words',
+      link: '/en/words',
+    },
+    {
+      text: 'Grammar',
+      link: '',
+      items: [
+        {
+          text: 'Grammatical Functions',
+          link: '/en/grammatical_functions',
+          items: [],
+        },
+        {
+          text: 'Word Classes',
+          link: '/en/word_classes',
+          items: [],
+        },
+      ],
+    },
+  ],
 }

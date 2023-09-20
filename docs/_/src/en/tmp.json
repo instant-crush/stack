@@ -1,0 +1,950 @@
+[
+  { "word": ["a", "an"], "meaning": "not, without" },
+  { "word": ["a"], "meaning": "on" },
+  { "word": ["a", "ab", "abss"], "meaning": "from, away, off" },
+  { "word": ["ac", "ad"], "meaning": "to, toward, near" },
+  { "word": ["acro"], "meaning": "top, height, tip, beginning" },
+  { "word": ["act"], "meaning": "do" },
+  { "word": ["aer", "aero"], "meaning": "air" },
+  { "word": ["agr", "agri", "agro"], "meaning": "farming" },
+  { "word": ["alg", "algo"], "meaning": "pain" },
+  { "word": ["ambi", "amphi"], "meaning": "both, on both sides, around" },
+  { "word": ["ambul"], "meaning": "walk, move" },
+  { "word": ["ami", "amio"], "meaning": "love" },
+  { "word": ["ana"], "meaning": "up, back, against, again, throughout" },
+  { "word": ["andr", "andro"], "meaning": "man, male" },
+  { "word": ["anim"], "meaning": "life, spirit" },
+  { "word": ["ann", "enn"], "meaning": "year" },
+  { "word": ["ante"], "meaning": "before, in front" },
+  { "word": ["anth", "antho"], "meaning": "flower" },
+  { "word": ["anthrop", "anthropo"], "meaning": "human" },
+  { "word": ["anti"], "meaning": "against, opposite of" },
+  { "word": ["apo", "apho"], "meaning": "away, off, separate" },
+  { "word": ["aqu", "aqua"], "meaning": "water" },
+  { "word": ["arbor"], "meaning": "tree" },
+  { "word": ["arch", "archi"], "meaning": "chief, most important, rule" },
+  { "word": ["arch", "archa", "archi"], "meaning": "primitive, ancient" },
+  { "word": ["arthr", "arthro"], "meaning": "joint" },
+  { "word": ["art"], "meaning": "skill" },
+  { "word": ["astro", "aster"], "meaning": "star, stars, outer space" },
+  { "word": ["aud", "audi", "audio"], "meaning": "hear" },
+  { "word": ["auto"], "meaning": "self, same, one" },
+  { "word": ["avi", "avia"], "meaning": "bird" },
+  { "word": ["bar", "baro"], "meaning": "pressure, weight" },
+  { "word": ["bell", "belli"], "meaning": "war" },
+  { "word": ["bene"], "meaning": "good, well" },
+  { "word": ["bi", "bin"], "meaning": "two, twice, once in every two" },
+  { "word": ["bibli", "biblio"], "meaning": "book" },
+  { "word": ["bio"], "meaning": "life, living matter" },
+  { "word": ["blast", "blasto"], "meaning": "cell, primitive, immature cell" },
+  { "word": ["burs"], "meaning": "pouch, purse" },
+  { "word": ["calc"], "meaning": "stone" },
+  { "word": ["cand"], "meaning": "glowing, iridescent" },
+  { "word": ["capt", "cept", "ceive"], "meaning": "take, hold" },
+  { "word": ["cardi", "cardio"], "meaning": "heart" },
+  { "word": ["carn", "carni"], "meaning": "flesh, meat" },
+  {
+    "word": ["cata"],
+    "meaning": "down, against completely, intensive, according to"
+  },
+  { "word": ["caust", "caut"], "meaning": "to burn" },
+  { "word": ["cede", "ceed", "cess"], "meaning": "go, yield" },
+  { "word": ["celer"], "meaning": "fast" },
+  { "word": ["cent", "centi"], "meaning": "hundred, hundredth" },
+  { "word": ["centr", "centro", "centri"], "meaning": "center" },
+  { "word": ["cephal", "cephalo"], "meaning": "head" },
+  { "word": ["cerebr", "cerebro"], "meaning": "brain" },
+  { "word": ["cert"], "meaning": "sure" },
+  {
+    "word": ["chrom", "chromo", "chromat", "chromato", "chros"],
+    "meaning": "color, pigment"
+  },
+  { "word": ["chron", "chrono"], "meaning": "time" },
+  { "word": ["chrys", "chryso"], "meaning": "gold, yellow" },
+  { "word": ["cide", "cise"], "meaning": "cut, kill" },
+  { "word": ["circum", "circle"], "meaning": "around, about" },
+  { "word": ["claim", "clam"], "meaning": "shout, speak out" },
+  { "word": ["clar"], "meaning": "clear" },
+  { "word": ["clud", "clus"], "meaning": "close" },
+  { "word": ["cline"], "meaning": "lean" },
+  { "word": ["co"], "meaning": "with, together, joint" },
+  { "word": ["col"], "meaning": "together, jointly" },
+  { "word": ["com"], "meaning": "together, common" },
+  { "word": ["cogn", "cogni"], "meaning": "know" },
+  { "word": ["con"], "meaning": "with, jointly" },
+  { "word": ["contra", "contrao"], "meaning": "against, opposite" },
+  { "word": ["corp", "corpo"], "meaning": "body" },
+  { "word": ["cosm", "cosmo"], "meaning": "universe" },
+  { "word": ["counter"], "meaning": "opposite, contrary, opposing" },
+  { "word": ["cranio"], "meaning": "skull" },
+  { "word": ["cred"], "meaning": "believe" },
+  { "word": ["cruc"], "meaning": "cross" },
+  { "word": ["crypto"], "meaning": "hidden, secret" },
+  { "word": ["cumul"], "meaning": "mass, heap" },
+  { "word": ["curr", "curs"], "meaning": "run" },
+  { "word": ["cycl"], "meaning": "circle, ring" },
+  { "word": ["de"], "meaning": "reduce, away, down, remove" },
+  { "word": ["dec", "deca", "deka"], "meaning": "ten" },
+  { "word": ["deci"], "meaning": "one tenth" },
+  { "word": ["dem", "demo"], "meaning": "people" },
+  { "word": ["demi"], "meaning": "half, less than" },
+  { "word": ["dendr", "dendro", "dendri"], "meaning": "tree" },
+  { "word": ["dent", "dont"], "meaning": "tooth" },
+  { "word": ["derm", "derma"], "meaning": "skin" },
+  { "word": ["di", "diplo"], "meaning": "two, twice" },
+  { "word": ["di", "dis"], "meaning": "apart, away, not, to the opposite" },
+  { "word": ["dia"], "meaning": "through, between, apart, across" },
+  { "word": ["dict"], "meaning": "speak" },
+  { "word": ["domin"], "meaning": "master" },
+  { "word": ["don", "donat"], "meaning": "give" },
+  { "word": ["duc", "duct"], "meaning": "lead" },
+  { "word": ["du", "duo"], "meaning": "two, twice" },
+  { "word": ["dur"], "meaning": "harden, to last, lasting" },
+  { "word": ["dyn", "dyna", "dynam"], "meaning": "power, energy, strength" },
+  { "word": ["dys"], "meaning": "abnormal, bad" },
+  { "word": ["e"], "meaning": "out, away" },
+  { "word": ["ego"], "meaning": "self" },
+  { "word": ["em", "en"], "meaning": "into, cover with, cause" },
+  { "word": ["endo"], "meaning": "within, inside" },
+  { "word": ["enn", "enni", "anni"], "meaning": "years" },
+  { "word": ["en", "in"], "meaning": "inside, inwards" },
+  {
+    "word": ["ep", "epi"],
+    "meaning": "on, upon, over, among, at, after, to, outside"
+  },
+  { "word": ["equ", "equi"], "meaning": "equal, equally" },
+  { "word": ["erg", "ergo"], "meaning": "work" },
+  { "word": ["esth", "aesth"], "meaning": "feeling, sensation, beauty" },
+  { "word": ["ethno"], "meaning": "race, people" },
+  { "word": ["eu"], "meaning": "good, well" },
+  { "word": ["ex"], "meaning": "from, out," },
+  { "word": ["extra", "extro"], "meaning": "outside, beyond" },
+  { "word": ["fac", "fact"], "meaning": "make, do" },
+  { "word": ["fer"], "meaning": "bear, bring, carry" },
+  { "word": ["fid"], "meaning": "faith" },
+  { "word": ["flect"], "meaning": "bend" },
+  { "word": ["flor", "flora", "fleur"], "meaning": "flower" },
+  {
+    "word": ["for"],
+    "meaning": "completely"
+  },
+  { "word": ["fore"], "meaning": "in front of, previous, earlier" },
+  { "word": ["form"], "meaning": "shape" },
+  { "word": ["fract", "frag"], "meaning": "break" },
+  { "word": ["fug"], "meaning": "flee, run away, escape" },
+  { "word": ["funct"], "meaning": "perform, work" },
+  { "word": ["fus"], "meaning": "pour" },
+  { "word": ["gastr", "gastro"], "meaning": "stomach" },
+  {
+    "word": ["gen", "geno", "gene", "genesis"],
+    "meaning": "birth, production, formation, kind"
+  },
+  { "word": ["geo"], "meaning": "earth, soil, global" },
+  { "word": ["ger"], "meaning": "old age" },
+  { "word": ["giga"], "meaning": "a billion" },
+  { "word": ["gon"], "meaning": "angle" },
+  { "word": ["gram"], "meaning": "letter, written" },
+  { "word": ["gran"], "meaning": "grain" },
+  { "word": ["graph", "graphy"], "meaning": "writing, recording, written" },
+  { "word": ["grat"], "meaning": "pleasing" },
+  { "word": ["gyn", "gyno", "gyne"], "meaning": "woman, female" },
+  { "word": ["gress", "grad", "grade", "gradi"], "meaning": "to step, to go" },
+  { "word": ["hect", "hacto", "hecat"], "meaning": "hundred" },
+  { "word": ["helic", "helico"], "meaning": "spiral, circular" },
+  { "word": ["heli", "helio"], "meaning": "sun" },
+  { "word": ["hemi"], "meaning": "half, partial" },
+  { "word": ["hem", "hemo", "hema"], "meaning": "blood" },
+  { "word": ["hepa"], "meaning": "liver" },
+  { "word": ["hept", "hepta"], "meaning": "seven" },
+  { "word": ["herbi"], "meaning": "grass, plant" },
+  { "word": ["hetero"], "meaning": "different, other" },
+  { "word": ["hex", "hexa"], "meaning": "six" },
+  { "word": ["histo"], "meaning": "tissue" },
+  { "word": ["homo", "homeo"], "meaning": "like, alike, same" },
+  { "word": ["hydr", "hydro"], "meaning": "liquid, water" },
+  { "word": ["hygr", "hygro"], "meaning": "moisture, humidity" },
+  { "word": ["hyper"], "meaning": "too much, over, excessive, beyond" },
+  { "word": ["hyp", "hypo"], "meaning": "under" },
+  { "word": ["iatr", "iatro"], "meaning": "medical care" },
+  { "word": ["icon", "icono"], "meaning": "image" },
+  { "word": ["idio"], "meaning": "peculiar, personal, distinct" },
+  { "word": ["il", "in"], "meaning": "in, into" },
+  { "word": ["ig", "il", "im", "in", "ir"], "meaning": "not, without" },
+  { "word": ["imag"], "meaning": "likeness" },
+  { "word": ["infra"], "meaning": "beneath, below" },
+  { "word": ["inter"], "meaning": "between, among, jointly" },
+  { "word": ["intra", "intro"], "meaning": "within, inside" },
+  { "word": ["ir"], "meaning": "not" },
+  { "word": ["iso"], "meaning": "equal" },
+  { "word": ["ject"], "meaning": "throw" },
+  { "word": ["jud"], "meaning": "law" },
+  { "word": ["junct"], "meaning": "join" },
+  { "word": ["juven"], "meaning": "young" },
+  { "word": ["kilo"], "meaning": "thousand" },
+  { "word": ["kine", "kinet", "kinemat"], "meaning": "motion, division" },
+  { "word": ["lab"], "meaning": "work" },
+  { "word": ["lact", "lacto"], "meaning": "milk" },
+  { "word": ["later"], "meaning": "side" },
+  { "word": ["leuk", "leuko", "leuc", "leuco"], "meaning": "white, colorless" },
+  { "word": ["lex"], "meaning": "word, law, reading" },
+  { "word": ["liber"], "meaning": "free" },
+  { "word": ["lingu"], "meaning": "language, tongue" },
+  { "word": ["lip", "lipo"], "meaning": "fat" },
+  {
+    "word": ["lite", "ite", "lith", "litho"],
+    "meaning": "mineral, rock, fossil"
+  },
+  { "word": ["loc"], "meaning": "place" },
+  { "word": ["log", "logo"], "meaning": "word, doctrine, discourse" },
+  { "word": ["loqu", "locu"], "meaning": "speak" },
+  { "word": ["luc"], "meaning": "light" },
+  { "word": ["lud", "lus"], "meaning": "to play" },
+  { "word": ["lumin"], "meaning": "light" },
+  { "word": ["lun", "luna", "luni"], "meaning": "moon" },
+  { "word": ["macro"], "meaning": "large, great" },
+  { "word": ["magn", "magna", "magni"], "meaning": "great, large" },
+  { "word": ["mal", "male"], "meaning": "bad, ill, wrong" },
+  { "word": ["man", "mani", "manu"], "meaning": "hand" },
+  { "word": ["mand"], "meaning": "to order" },
+  { "word": ["mania"], "meaning": "madness, insanity, excessive desire" },
+  { "word": ["mar", "mari"], "meaning": "sea" },
+  { "word": ["mater", "matr", "matri"], "meaning": "mother" },
+  { "word": ["max"], "meaning": "greatest" },
+  { "word": ["medi"], "meaning": "middle" },
+  { "word": ["mega"], "meaning": "great, large, million" },
+  { "word": ["melan", "melano"], "meaning": "black" },
+  { "word": ["memor", "memori"], "meaning": "remember" },
+  { "word": ["merge", "mers"], "meaning": "dip, dive" },
+  { "word": ["meso"], "meaning": "middle" },
+  { "word": ["meta"], "meaning": "change, after, beyond, between" },
+  { "word": ["meter", "metr", "metry"], "meaning": "measure" },
+  { "word": ["micro"], "meaning": "very small, short, minute" },
+  { "word": ["mid"], "meaning": "middle" },
+  { "word": ["migr"], "meaning": "move" },
+  { "word": ["milli"], "meaning": "onethousandth" },
+  { "word": ["min", "mini"], "meaning": "small, less" },
+  { "word": ["mis", "miso"], "meaning": "bad, badly, wrong, wrongly, to hate" },
+  { "word": ["miss", "mit"], "meaning": "send, let go" },
+  { "word": ["mob"], "meaning": "move" },
+  { "word": ["mon", "mono"], "meaning": "one, single, alone" },
+  { "word": ["mot", "mov"], "meaning": "move" },
+  { "word": ["morph", "morpho"], "meaning": "form" },
+  { "word": ["mort"], "meaning": "death" },
+  { "word": ["multi"], "meaning": "many, more than one or two" },
+  { "word": ["mut"], "meaning": "change" },
+  { "word": ["my", "myo"], "meaning": "muscle" },
+  { "word": ["narr"], "meaning": "tell" },
+  { "word": ["nat"], "meaning": "born" },
+  { "word": ["nav"], "meaning": "ship" },
+  { "word": ["necr", "necro"], "meaning": "dead, death" },
+  { "word": ["neg"], "meaning": "no" },
+  { "word": ["neo"], "meaning": "new, recent" },
+  { "word": ["nephr", "nephro"], "meaning": "kidney" },
+  { "word": ["neur", "neuro"], "meaning": "nerve" },
+  { "word": ["nom", "nomin"], "meaning": "name" },
+  { "word": ["non"], "meaning": "no, not, without" },
+  { "word": ["not"], "meaning": "mark" },
+  { "word": ["noun", "nunc"], "meaning": "declare" },
+  { "word": ["nov"], "meaning": "new" },
+  { "word": ["numer"], "meaning": "number" },
+  { "word": ["ob", "op"], "meaning": "in the way, against" },
+  { "word": ["oct", "octa", "octo"], "meaning": "eight" },
+  { "word": ["ocu"], "meaning": "eye" },
+  { "word": ["od"], "meaning": "path, way" },
+  { "word": ["odor"], "meaning": "smell, scent" },
+  { "word": ["omni"], "meaning": "all" },
+  { "word": ["op", "opt", "ops"], "meaning": "eye, visual condition, sight" },
+  { "word": ["opt"], "meaning": "best" },
+  { "word": ["ortho"], "meaning": "straight" },
+  { "word": ["osteo"], "meaning": "bone" },
+  { "word": ["out"], "meaning": "goes beyond, surpasses, exceeds" },
+  { "word": ["over"], "meaning": "excessive" },
+  { "word": ["oxi", "oxy"], "meaning": "sharp" },
+  { "word": ["pale", "paleo"], "meaning": "ancient" },
+  { "word": ["pan"], "meaning": "all, any, everyone" },
+  { "word": ["para"], "meaning": "beside, beyond, abnormal, assistant" },
+  { "word": ["para"], "meaning": "protection from" },
+  { "word": ["pater", "patr", "patri"], "meaning": "father" },
+  { "word": ["path"], "meaning": "feeling, emotion" },
+  { "word": ["ped", "pedi", "pede"], "meaning": "foot, feet" },
+  { "word": ["pel"], "meaning": "drive, force" },
+  { "word": ["pent", "penta"], "meaning": "five" },
+  { "word": ["pept", "peps"], "meaning": "digestion" },
+  { "word": ["per"], "meaning": "through, throughout" },
+  { "word": ["peri"], "meaning": "around, enclosing" },
+  { "word": ["phag", "phage"], "meaning": "to eat" },
+  { "word": ["phil", "philo"], "meaning": "love, friend" },
+  { "word": ["phon", "phano", "phane", "phany"], "meaning": "sound" },
+  { "word": ["phot", "photo"], "meaning": "light" },
+  { "word": ["phyll", "phyllo"], "meaning": "leaf" },
+  { "word": ["phys"], "meaning": "nature, medicine, the body" },
+  { "word": ["phyt", "phyto", "phyte"], "meaning": "plant, to grow" },
+  {
+    "word": ["plas", "plast", "plasm"],
+    "meaning": "to form, development, forming cells"
+  },
+  { "word": ["plaud", "plod", "plaus", "plos"], "meaning": "approve, clap" },
+  { "word": ["pneum", "pneumo"], "meaning": "breathing, lung, air, spirit" },
+  { "word": ["pod", "pode"], "meaning": "foot" },
+  { "word": ["poli"], "meaning": "city" },
+  { "word": ["poly"], "meaning": "many, more than one" },
+  { "word": ["pon"], "meaning": "place, put" },
+  { "word": ["pop"], "meaning": "people" },
+  { "word": ["port"], "meaning": "carry" },
+  { "word": ["pos"], "meaning": "place, put" },
+  { "word": ["post"], "meaning": "after, behind" },
+  { "word": ["pre"], "meaning": "earlier, before, in front of" },
+  { "word": ["pro"], "meaning": "before, in front of, for, forward" },
+  { "word": ["prot", "proto"], "meaning": "primitive, first, chief" },
+  { "word": ["pseud", "pseudo"], "meaning": "wrong,false" },
+  { "word": ["psych", "psycho"], "meaning": "mind, mental" },
+  { "word": ["pugn", "pugna", "pung"], "meaning": "to fight" },
+  { "word": ["pul"], "meaning": "urge" },
+  { "word": ["purg"], "meaning": "clean" },
+  { "word": ["put"], "meaning": "think" },
+  { "word": ["pyr", "pyro"], "meaning": "fire, heat" },
+  { "word": ["quad", "quadr", "quadri"], "meaning": "four" },
+  { "word": ["quart"], "meaning": "fourth" },
+  { "word": ["quin", "quint"], "meaning": "five, fifth" },
+  { "word": ["radic", "radix"], "meaning": "word" },
+  { "word": ["radio"], "meaning": "radiation, ray" },
+  { "word": ["ram", "rami"], "meaning": "branch" },
+  { "word": ["re"], "meaning": "again, back, backward" },
+  { "word": ["reg"], "meaning": "guide, rule" },
+  { "word": ["retro"], "meaning": "backward, back" },
+  { "word": ["rhin", "rhino"], "meaning": "nose" },
+  { "word": ["rhod", "rhodo"], "meaning": "red" },
+  { "word": ["rid"], "meaning": "laugh" },
+  { "word": ["rrh", "rrhea", "rrhoea", "rrhag"], "meaning": "flow, discharge" },
+  { "word": ["rub"], "meaning": "red" },
+  { "word": ["rupt"], "meaning": "break, burst" },
+  { "word": ["san"], "meaning": "health" },
+  { "word": ["scend"], "meaning": "climb, go" },
+  { "word": ["sci"], "meaning": "know" },
+  { "word": ["scler", "sclero"], "meaning": "hard" },
+  { "word": ["scop", "scope", "scopy"], "meaning": "see, examine, observe" },
+  { "word": ["scrib", "script"], "meaning": "write, written" },
+  { "word": ["se"], "meaning": "apart" },
+  { "word": ["sect"], "meaning": "cut" },
+  { "word": ["sed", "sid", "sess"], "meaning": "sit" },
+  { "word": ["self"], "meaning": "of, for, or by itself" },
+  { "word": ["semi"], "meaning": "half, partial" },
+  { "word": ["sept", "septi"], "meaning": "seven" },
+  { "word": ["serv"], "meaning": "save, keep" },
+  { "word": ["sex"], "meaning": "six" },
+  { "word": ["sol"], "meaning": "alone" },
+  { "word": ["sol"], "meaning": "sun" },
+  { "word": ["somn", "somni"], "meaning": "sleep" },
+  { "word": ["son"], "meaning": "sound" },
+  { "word": ["soph"], "meaning": "wise" },
+  { "word": ["spec", "spect", "spic"], "meaning": "see, look" },
+  { "word": ["sphere"], "meaning": "ball" },
+  { "word": ["spir"], "meaning": "breathe" },
+  { "word": ["sta"], "meaning": "stand" },
+  { "word": ["stell"], "meaning": "star" },
+  { "word": ["struct"], "meaning": "build" },
+  { "word": ["sub"], "meaning": "under, lower than, inferior to" },
+  { "word": ["sum"], "meaning": "highest" },
+  { "word": ["super"], "meaning": "higher in quality or quantity" },
+  {
+    "word": ["sy", "sym", "syn", "syl", "sys"],
+    "meaning": "together, with, same"
+  },
+  { "word": ["tact", "tang"], "meaning": "touch" },
+  { "word": ["tax", "taxo"], "meaning": "arrangement" },
+  { "word": ["techno"], "meaning": "technique, skill" },
+  { "word": ["tel", "tele", "telo"], "meaning": "far, distant, complete" },
+  { "word": ["temp", "tempor"], "meaning": "time" },
+  { "word": ["ten", "tin", "tent"], "meaning": "hold" },
+  { "word": ["ter", "trit"], "meaning": "rub" },
+  { "word": ["term", "termina"], "meaning": "end, limit" },
+  { "word": ["terr", "terra", "terri"], "meaning": "land, earth" },
+  { "word": ["tetra"], "meaning": "four" },
+  { "word": ["the"], "meaning": "put" },
+  { "word": ["the", "theo"], "meaning": "god" },
+  { "word": ["therm", "thermo"], "meaning": "heat" },
+  { "word": ["tort"], "meaning": "twist" },
+  { "word": ["tox"], "meaning": "poison" },
+  { "word": ["tract"], "meaning": "pull, drag" },
+  { "word": ["trans"], "meaning": "across,beyond, through" },
+  { "word": ["tri"], "meaning": "three, once in every three, third" },
+  { "word": ["ultra"], "meaning": "beyond, extreme, more than" },
+  { "word": ["un"], "meaning": "not,opposite of, lacking" },
+  { "word": ["uni"], "meaning": "one, single" },
+  { "word": ["urb"], "meaning": "city" },
+  { "word": ["vac"], "meaning": "empty" },
+  { "word": ["ven", "vent"], "meaning": "come" },
+  { "word": ["ver", "veri"], "meaning": "truth" },
+  { "word": ["verb"], "meaning": "word" },
+  { "word": ["vers", "vert"], "meaning": "turn" },
+  { "word": ["vice"], "meaning": "acting in place of, next in rank" },
+  { "word": ["vid"], "meaning": "see" },
+  { "word": ["vince", "vic"], "meaning": "conquer" },
+  { "word": ["vis", "vid"], "meaning": "see" },
+  { "word": ["viv", "vivi", "vit"], "meaning": "live, life" },
+  { "word": ["voc", "voci"], "meaning": "voice, call" },
+  { "word": ["vol", "voli", "volu"], "meaning": "wish, will" },
+  { "word": ["vor", "vour"], "meaning": "eat" },
+  { "word": ["xanth"], "meaning": "yellow" },
+  { "word": ["xen", "xeno"], "meaning": "foreign" },
+  { "word": ["xer", "xero", "xeroi"], "meaning": "dry" },
+  { "word": ["xyl"], "meaning": "wood" },
+  { "word": ["zo", "zoo"], "meaning": "animal life" },
+  { "word": ["zyg", "zygo"], "meaning": "pair" }
+]
+
+
+// 'able, ible, ac, acity, ocity, acy, ade, age, aholic, oholic, maniac, phil, al, algia, an, ance, ence, ar, ard, arian, arium, orium, ary, ate, ative, cide, cracy, crat, cule, cy, cycle, dom, dox, ectomy, ant, ee, eer, er, or, ist, ian, ator, ent, emia, en, ency, ern, escence, ese, esque, ess, etic, ette, ful, ous, ious, fy, gam, gamy, gon, gonic, angular, hedral, hood, ial, iasis, iatric, ic, ical, ify, ile, ily, ine, ing, ion, ation, tion, ization, sion, xion, ish, ism, ite, itis, ity, ty, ive, ise, ize, less, let, like, ling, loger, logist, log, ly, ment, ness, oid, ology, oma, onym, opia, opsy, ory, osis, ostomy, otomy, path, phile, phobia, phone, phyte, plegia, plegic, pnea, scopy, scope, scribe, script, sect, ship, some, sophy, sophic, th, tome, tomy, trophy, tude, ular, uous, ure, ward, wards, ware, wise, y'
+{
+  "able": {
+    "meaning": "able to do something",
+    "sameMeaningSuffixes": ["ible"]
+  },
+  "ible": {
+    "meaning": "able to be done",
+    "sameMeaningSuffixes": ["able"]
+  },
+  "ac": {
+    "meaning": "relating to",
+    "sameMeaningSuffixes": ["al", "ane", "ar", "ary", "ate", "c", "en", "ine", "ic", "ile", "ine", "ine", "otic", "ous"]
+  },
+  "acity": {
+    "meaning": "state or quality of being",
+    "sameMeaningSuffixes": ["cy", "dom", "ence", "hood", "ism", "ity", "ment", "ness", "ship", "tude", "ure"]
+  },
+  "ocity": {
+    "meaning": "state or quality of being",
+    "sameMeaningSuffixes": ["cy", "dom", "ence", "hood", "ism", "ity", "ment", "ness", "ship", "tude", "ure"]
+  },
+  "acy": {
+    "meaning": "state or quality of being",
+    "sameMeaningSuffixes": ["cy", "dom", "ence", "hood", "ism", "ity", "ment", "ness", "ship", "tude", "ure"]
+  },
+  "ade": {
+    "meaning": "made from",
+    "sameMeaningSuffixes": []
+  },
+  "age": {
+    "meaning": "state or quality of being",
+    "sameMeaningSuffixes": ["cy", "dom", "ence", "hood", "ism", "ity", "ment", "ness", "ship", "tude", "ure"]
+  },
+  "aholic": {
+    "meaning": "addicted to",
+    "sameMeaningSuffixes": ["oholic"]
+  },
+  "oholic": {
+    "meaning": "addicted to",
+    "sameMeaningSuffixes": ["aholic"]
+  },
+  "maniac": {
+    "meaning": "person suffering from mania",
+    "sameMeaningSuffixes": []
+  },
+  "phil": {
+    "meaning": "lover of",
+    "sameMeaningSuffixes": []
+  },
+  "al": {
+    "meaning": "relating to",
+    "sameMeaningSuffixes": ["ac", "ane", "ar", "ary", "ate", "c", "en", "ine", "ic", "ile", "ine", "ine", "otic", "ous"]
+  },
+  "algia": {
+    "meaning": "pain",
+    "sameMeaningSuffixes": []
+  },
+  "an": {
+    "meaning": "relating to",
+    "sameMeaningSuffixes": ["ar", "ary"]
+  },
+  "ance": {
+    "meaning": "state or quality of being",
+    "sameMeaningSuffixes": ["cy", "dom", "ence", "hood", "ism", "ity", "ment", "ness", "ship", "tude", "ure"]
+  },
+  "ence": {
+    "meaning": "state or quality of being",
+    "sameMeaningSuffixes": ["cy", "dom", "ance", "hood", "ism", "ity", "ment", "ness", "ship", "tude", "ure"]
+  },
+  "ar": {
+    "meaning": "relating to",
+    "sameMeaningSuffixes": ["an", "ary"]
+  },
+  "ard": {
+    "meaning": "one who is skilled in or fond of",
+    "sameMeaningSuffixes": []
+  },
+  "arian": {
+    "meaning": "relating to",
+    "sameMeaningSuffixes": ["ary"]
+  },
+  "arium": {
+    "meaning": "place where animals or plants are kept",
+    "sameMeaningSuffixes": []
+  },
+  "orium": {
+    "meaning": "place where something is studied or done",
+    "sameMeaningSuffixes": []
+  },
+  "ary": {
+    "meaning": "relating to",
+    "sameMeaningSuffixes": ["an", "ar"]
+  },
+  "ate": {
+    "meaning": "make or become",
+    "sameMeaningSuffixes": ["ify", "ize"]
+  },
+  "ative": {
+    "meaning": "relating to or causing",
+    "sameMeaningSuffixes": ["tory"]
+  },
+  "cide": {
+    "meaning": "killer",
+    "sameMeaningSuffixes": []
+  },
+  "cracy": {
+    "meaning": "government by",
+    "sameMeaningSuffixes": []
+  },
+  "crat": {
+    "meaning": "ruler",
+    "sameMeaningSuffixes": []
+  },
+  "cule": {
+    "meaning": "small",
+    "sameMeaningSuffixes": ["ette", "let", "ling"]
+  },
+  "cy": {
+    "meaning": "state or quality of being",
+    "sameMeaningSuffixes": ["acity", "ocity", "acy", "age", "ance", "ence", "dom", "hood", "ism", "ity", "ment", "ness", "ship", "tude", "ure"]
+  },
+  "cycle": {
+    "meaning": "series of events that happen regularly",
+    "sameMeaningSuffixes": []
+  },
+  "dom": {
+    "meaning": "state or quality of being",
+    "sameMeaningSuffixes": ["acity", "ocity", "acy", "age", "ance", "ence", "cy", "hood", "ism", "ity", "ment", "ness", "ship", "tude", "ure"]
+  },
+  "dox": {
+    "meaning": "opinion",
+    "sameMeaningSuffixes": []
+  },
+  "ectomy": {
+    "meaning": "surgical removal of",
+    "sameMeaningSuffixes": []
+  },
+  "ant": {
+    "meaning": "one who does something",
+    "sameMeaningSuffixes": ["ee", "eer", "er", "or", "ist", "ian", "ator", "ent"]
+  },
+  "ee": {
+    "meaning": "one who receives something",
+    "sameMeaningSuffixes": ["ant", "eer", "er", "or", "ist", "ian", "ator", "ent"]
+  },
+  "eer": {
+    "meaning": "one who does something",
+    "sameMeaningSuffixes": ["ant", "ee", "er", "or", "ist", "ian", "ator", "ent"]
+  },
+  "er": {
+    "meaning": "one who does something",
+    "sameMeaningSuffixes": ["ant", "ee", "eer", "or", "ist", "ian", "ator", "ent"]
+  },
+  "or": {
+    "meaning": "one who does something",
+    "sameMeaningSuffixes": ["ant", "ee", "eer", "er", "ist", "ian", "ator", "ent"]
+  },
+  "ist": {
+    "meaning": "one who does something",
+    "sameMeaningSuffixes": ["ant", "ee", "eer", "er", "or", "ian", "ator", "ent"]
+  },
+  "ian": {
+    "meaning": "one who does something",
+    "sameMeaningSuffixes": ["ant", "ee", "eer", "er", "or", "ist", "ator", "ent"]
+  },
+  "ator": {
+    "meaning": "one who does something",
+    "sameMeaningSuffixes": ["ant", "ee", "eer", "er", "or", "ist", "ian", "ent"]
+  },
+  "ent": {
+    "meaning": "one who does something",
+    "sameMeaningSuffixes": ["ant", "ee", "eer", "er", "or", "ist", "ian", "ator"]
+  },
+  "emia": {
+    "meaning": "condition in which too much of something is in the blood",
+    "sameMeaningSuffixes": []
+  },
+  "en": {
+    "meaning": "made of or containing",
+    "sameMeaningSuffixes": []
+  },
+  "ency": {
+    "meaning": "state or quality of being",
+    "sameMeaningSuffixes": []
+  },
+  "ern": {
+    "meaning": "relating to",
+    "sameMeaningSuffixes": []
+  },
+  "escence": {
+    "meaning": "state or process of becoming",
+    "sameMeaningSuffixes": ["ence", "cy"]
+  },
+  "ese": {
+    "meaning": "of or relating to",
+    "sameMeaningSuffixes": []
+  },
+  "esque": {
+    "meaning": "having the qualities of",
+    "sameMeaningSuffixes": []
+  },
+  "ess": {
+    "meaning": "female person",
+    "sameMeaningSuffixes": []
+  },
+  "etic": {
+    "meaning": "relating to",
+    "sameMeaningSuffixes": []
+  },
+  "ette": {
+    "meaning": "small",
+    "sameMeaningSuffixes": ["cule", "let", "ling"]
+  },
+  "ful": {
+    "meaning": "having or containing",
+    "sameMeaningSuffixes": []
+  },
+  "ous": {
+    "meaning": "full of",
+    "sameMeaningSuffixes": ["ious"]
+  },
+  "ious": {
+    "meaning": "full of",
+    "sameMeaningSuffixes": ["ous"]
+  },
+  "fy": {
+    "meaning": "make",
+    "sameMeaningSuffixes": ["ate", "ize"]
+  },
+  "gam": {
+    "meaning": "lame",
+    "sameMeaningSuffixes": []
+  },
+  "gamy": {
+    "meaning": "lame",
+    "sameMeaningSuffixes": []
+  },
+  "gon": {
+    "meaning": "angle",
+    "sameMeaningSuffixes": []
+  },
+  "gonic": {
+    "meaning": "relating to an angle",
+    "sameMeaningSuffixes": []
+  },
+  "angular": {
+    "meaning": "having angles",
+    "sameMeaningSuffixes": []
+  },
+  "hedral": {
+    "meaning": "having faces",
+    "sameMeaningSuffixes": []
+  },
+  "hood": {
+    "meaning": "state or quality of being",
+    "sameMeaningSuffixes": ["acity", "ocity", "acy", "age", "ance", "ence", "cy", "dom", "ism", "ity", "ment", "ness", "ship", "tude", "ure"]
+  },
+  "ial": {
+    "meaning": "relating to",
+    "sameMeaningSuffixes": []
+  },
+  "iasis": {
+    "meaning": "disease or condition",
+    "sameMeaningSuffixes": []
+  },
+  "iatric": {
+    "meaning": "relating to medicine",
+    "sameMeaningSuffixes": []
+  },
+  "ic": {
+    "meaning": "relating to",
+    "sameMeaningSuffixes": ["ac", "al", "ane", "ar", "ary", "ate", "c", "en", "ine", "ile", "ine", "ine", "otic", "ous"]
+  },
+  "ical": {
+    "meaning": "relating to",
+    "sameMeaningSuffixes": ["ac", "al", "ane", "ar", "ary", "ate", "c", "en", "ine", "ile", "ine", "ine", "otic", "ous"]
+  },
+  "ify": {
+    "meaning": "make",
+    "sameMeaningSuffixes": ["ate", "fy"]
+  },
+  "ile": {
+    "meaning": "relating to",
+    "sameMeaningSuffixes": ["ac", "al", "ane", "ar", "ary", "ate", "c", "en", "ine", "ic", "ical", "ine", "ine", "otic", "ous"]
+  },
+  "ily": {
+    "meaning": "in a way that is",
+    "sameMeaningSuffixes": []
+  },
+  "ine": {
+    "meaning": "relating to",
+    "sameMeaningSuffixes": ["ac", "al", "ane", "ar", "ary", "ate", "c", "en", "ic", "ical", "ile", "ine", "ine", "otic", "ous"]
+  },
+  "ion": {
+    "meaning": "state or process of",
+    "sameMeaningSuffixes": ["ation", "tion", "ization", "sion", "xion"]
+  },
+  "ation": {
+    "meaning": "state or process of",
+    "sameMeaningSuffixes": ["ion", "tion", "ization", "sion", "xion"]
+  },"tion": {
+    "meaning": "state or process of",
+    "sameMeaningSuffixes": ["ion", "ation", "ization", "sion", "xion"]
+  },
+  "ization": {
+    "meaning": "state or process of",
+    "sameMeaningSuffixes": ["ion", "ation", "tion", "sion", "xion"]
+  },
+  "sion": {
+    "meaning": "state or process of",
+    "sameMeaningSuffixes": ["ion", "ation", "tion", "ization", "xion"]
+  },
+  "xion": {
+    "meaning": "state or process of",
+    "sameMeaningSuffixes": ["ion", "ation", "tion", "ization", "sion"]
+  },
+  "ish": {
+    "meaning": "somewhat",
+    "sameMeaningSuffixes": []
+  },
+  "ism": {
+    "meaning": "state or quality of being",
+    "sameMeaningSuffixes": ["acity", "ocity", "acy", "age", "ance", "ence", "cy", "dom", "hood", "ity", "ment", "ness", "ship", "tude", "ure"]
+  },
+  "ite": {
+    "meaning": "one who does something",
+    "sameMeaningSuffixes": ["ant", "ee", "eer", "er", "or", "ist", "ian", "ator", "ent"]
+  },
+  "itis": {
+    "meaning": "inflammation of",
+    "sameMeaningSuffixes": []
+  },
+  "ity": {
+    "meaning": "state or quality of being",
+    "sameMeaningSuffixes": ["acity", "ocity", "acy", "age", "ance", "ence", "cy", "dom", "hood", "ism", "ment", "ness", "ship", "tude", "ure"]
+  },
+  "ty": {
+    "meaning": "state or quality of being",
+    "sameMeaningSuffixes": ["acity", "ocity", "acy", "age", "ance", "ence", "cy", "dom", "hood", "ism", "ity", "ment", "ness", "ship", "tude", "ure"]
+  },
+  "ive": {
+    "meaning": "having or tending to",
+    "sameMeaningSuffixes": []
+  },
+  "ise": {
+    "meaning": "make",
+    "sameMeaningSuffixes": ["ate", "fy", "ize"]
+  },
+  "ize": {
+    "meaning": "make",
+    "sameMeaningSuffixes": ["ate", "fy", "ise"]
+  },
+  "less": {
+    "meaning": "without",
+    "sameMeaningSuffixes": []
+  },
+  "let": {
+    "meaning": "small",
+    "sameMeaningSuffixes": ["cule", "ette", "ling"]
+  },
+  "like": {
+    "meaning": "similar to",
+    "sameMeaningSuffixes": []
+  },
+  "ling": {
+    "meaning": "small",
+    "sameMeaningSuffixes": ["cule", "ette", "let"]
+  },
+  "loger": {
+    "meaning": "one who studies or is skilled in",
+    "sameMeaningSuffixes": ["logist"]
+  },
+  "logist": {
+    "meaning": "one who studies or is skilled in",
+    "sameMeaningSuffixes": ["loger"]
+  },
+  "log": {
+    "meaning": "study of",
+    "sameMeaningSuffixes": []
+  },
+  "ly": {
+    "meaning": "in a way that is",
+    "sameMeaningSuffixes": []
+  },
+  "ment": {
+    "meaning": "state or process of",
+    "sameMeaningSuffixes": ["acity", "ocity", "acy", "age", "ance", "ence", "cy", "dom", "hood", "ism", "ity", "ness", "ship", "tude", "ure"]
+  },
+  "ness": {
+    "meaning": "state or quality of being",
+    "sameMeaningSuffixes": ["acity", "ocity", "acy", "age", "ance", "ence", "cy", "dom", "hood", "ism", "ity", "ment", "ship", "tude", "ure"]
+  },
+  "oid": {
+    "meaning": "like or resembling",
+    "sameMeaningSuffixes": []
+  },
+  "ology": {
+    "meaning": "study of",
+    "sameMeaningSuffixes": ["log"]
+  },
+  "oma": {
+    "meaning": "tumor",
+    "sameMeaningSuffixes": []
+  },
+  "onym": {
+    "meaning": "word with the same meaning as another word",
+    "sameMeaningSuffixes": []
+  },
+  "opia": {
+    "meaning": "abnormal state of the eye",
+    "sameMeaningSuffixes": []
+  },
+  "opsy": {
+    "meaning": "examination",
+    "sameMeaningSuffixes": []
+  },
+  "ory": {
+    "meaning": "relating to",
+    "sameMeaningSuffixes": ["ac", "al", "ane", "ar", "ate", "c", "en", "ine", "ic", "ile", "ine", "ine", "otic", "ous"]
+  },
+  "osis": {
+    "meaning": "abnormal condition",
+    "sameMeaningSuffixes": []
+  },
+  "ostomy": {
+    "meaning": "surgical creation of an opening in the body",
+    "sameMeaningSuffixes": []
+  },
+  "otomy": {
+    "meaning": "surgical incision",
+    "sameMeaningSuffixes": []
+  },
+  "path": {
+    "meaning": "disease",
+    "sameMeaningSuffixes": []
+  },
+  "phile": {
+    "meaning": "lover of",
+    "sameMeaningSuffixes": []
+  },
+  "phobia": {
+    "meaning": "fear of",
+    "sameMeaningSuffixes": []
+  },
+  "phone": {
+    "meaning": "sound",
+    "sameMeaningSuffixes": []
+  },
+  "phyte": {
+    "meaning": "plant",
+    "sameMeaningSuffixes": []
+  },
+  "plegia": {
+    "meaning": "paralysis",
+    "sameMeaningSuffixes": []
+  },
+  "plegic": {
+    "meaning": "paralyzed",
+    "sameMeaningSuffixes": []
+  },
+  "pnea": {
+    "meaning": "breath",
+    "sameMeaningSuffixes": []
+  },
+  "scopy": {
+    "meaning": "visual examination",
+    "sameMeaningSuffixes": []
+  },
+  "scope": {
+    "meaning": "range or extent",
+    "sameMeaningSuffixes": []
+  },
+  "scribe": {
+    "meaning": "one who writes",
+    "sameMeaningSuffixes": []
+  },
+  "script": {
+    "meaning": "writing",
+    "sameMeaningSuffixes": []
+  },
+  "sect": {
+    "meaning": "part or division",
+    "sameMeaningSuffixes": []
+  },
+  "ship": {
+    "meaning": "state or quality of being",
+    "sameMeaningSuffixes": ["acity", "ocity", "acy", "age", "ance", "ence", "cy", "dom", "hood", "ism", "ity", "ment", "ness", "tude", "ure"]
+  },
+  "some": {
+    "meaning": "to some extent",
+    "sameMeaningSuffixes": []
+  },
+  "sophy": {
+    "meaning": "wisdom",
+    "sameMeaningSuffixes": []
+  },
+  "soph": {
+    "meaning": "wise",
+    "sameMeaningSuffixes": []
+  },
+  "th": {
+    "meaning": "relating to",
+    "sameMeaningSuffixes": []
+  },
+  "tome": {
+    "meaning": "book",
+    "sameMeaningSuffixes": []
+  },
+  "tomy": {
+    "meaning": "surgical incision",
+    "sameMeaningSuffixes": ["otomy"]
+  },
+  "trophy": {
+    "meaning": "cup or other prize awarded for victory",
+    "sameMeaningSuffixes": []
+  },
+  "tude": {
+    "meaning": "state or quality of being",
+    "sameMeaningSuffixes": ["acity", "ocity", "acy", "age", "ance", "ence", "cy", "dom", "hood", "ism", "ity", "ment", "ness", "ship", "ure"]
+  },
+  "ular": {
+    "meaning": "relating to",
+    "sameMeaningSuffixes": []
+  },
+  "uous": {
+    "meaning": "full of",
+    "sameMeaningSuffixes": ["ous"]
+  },
+  "ure": {
+    "meaning": "state or quality of being",
+    "sameMeaningSuffixes": ["acity", "ocity", "acy", "age", "ance", "ence", "cy", "dom", "hood", "ism", "ity", "ment", "ness", "ship", "tude"]
+  },
+  "ward": {
+    "meaning": "in the direction of",
+    "sameMeaningSuffixes": []
+  },
+  "wards": {
+    "meaning": "in the direction of",
+    "sameMeaningSuffixes": []
+  },
+  "ware": {
+    "meaning": "aware of",
+    "sameMeaningSuffixes": []
+  },
+  "wise": {
+    "meaning": "having or showing wisdom",
+    "sameMeaningSuffixes": []
+  },
+  "y": {
+    "meaning": "in a way that is",
+    "sameMeaningSuffixes": []
+  }
+}

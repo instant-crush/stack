@@ -1,0 +1,734 @@
+[
+  {
+    "words": { "a": { "meaning": "", "description": "" } },
+    "sameMeaning": "verb > predicative adjective with progressive aspect",
+    "description": ""
+  },
+  {
+    "words": { "after": { "meaning": "", "description": "" } },
+    "sameMeaning": "following after",
+    "description": ""
+  },
+  {
+    "words": { "back": { "meaning": "", "description": "" } },
+    "sameMeaning": "behind an object/structure (locative/directional)",
+    "description": ""
+  },
+  {
+    "words": { "be": { "meaning": "", "description": "" } },
+    "sameMeaning": "equipped with, covered with, beset with (pejorative or facetious)",
+    "description": ""
+  },
+  {
+    "words": { "by": { "meaning": "", "description": "" } },
+    "sameMeaning": "near to, next to",
+    "description": ""
+  },
+  {
+    "words": { "down": { "meaning": "", "description": "" } },
+    "sameMeaning": "from higher/greater to lower/lesser",
+    "description": ""
+  },
+  {
+    "words": {
+      "en": { "meaning": "", "description": "" },
+      "em": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "to make into, to put into, to get into",
+    "description": ""
+  },
+  {
+    "words": { "fore": { "meaning": "", "description": "" } },
+    "sameMeaning": "before, in front",
+    "description": ""
+  },
+  {
+    "words": { "hind": { "meaning": "", "description": "" } },
+    "sameMeaning": "after",
+    "description": ""
+  },
+  {
+    "words": { "mid": { "meaning": "", "description": "" } },
+    "sameMeaning": "middle",
+    "description": ""
+  },
+  {
+    "words": { "midi": { "meaning": "", "description": "" } },
+    "sameMeaning": "medium-sized",
+    "description": ""
+  },
+  {
+    "words": { "mini": { "meaning": "", "description": "" } },
+    "sameMeaning": "small",
+    "description": ""
+  },
+  {
+    "words": { "mis": { "meaning": "", "description": "" } },
+    "sameMeaning": "wrong, astray",
+    "description": ""
+  },
+  {
+    "words": { "off": { "meaning": "", "description": "" } },
+    "sameMeaning": "non-standard, away",
+    "description": ""
+  },
+  {
+    "words": { "on": { "meaning": "", "description": "" } },
+    "sameMeaning": "immediate proximity, locative",
+    "description": ""
+  },
+  {
+    "words": { "out": { "meaning": "", "description": "" } },
+    "sameMeaning": "better, faster, longer, farther",
+    "description": ""
+  },
+  {
+    "words": { "over": { "meaning": "", "description": "" } },
+    "sameMeaning": "excessive, above",
+    "description": ""
+  },
+  {
+    "words": { "self": { "meaning": "", "description": "" } },
+    "sameMeaning": "self",
+    "description": ""
+  },
+  {
+    "words": { "step": { "meaning": "", "description": "" } },
+    "sameMeaning": "family relation by remarriage",
+    "description": ""
+  },
+  {
+    "words": { "twi": { "meaning": "", "description": "" } },
+    "sameMeaning": "two",
+    "description": ""
+  },
+  {
+    "words": { "un": { "meaning": "", "description": "" } },
+    "sameMeaning": "not, against, opposite of",
+    "description": ""
+  },
+  {
+    "words": { "un": { "meaning": "", "description": "" } },
+    "sameMeaning": "reverse action, deprive of, release from",
+    "description": ""
+  },
+  {
+    "words": { "under": { "meaning": "", "description": "" } },
+    "sameMeaning": "below, beneath, lower in grade or dignity, lesser, insufficient",
+    "description": ""
+  },
+  {
+    "words": { "up": { "meaning": "", "description": "" } },
+    "sameMeaning": "greater, higher, or better",
+    "description": ""
+  },
+  {
+    "words": { "with": { "meaning": "", "description": "" } },
+    "sameMeaning": "against, back, away (from)",
+    "description": ""
+  },
+  {
+    "words": { "a": { "meaning": "", "description": "" } },
+    "sameMeaning": "not, alpha privative",
+    "description": ""
+  },
+  {
+    "words": { "afro": { "meaning": "", "description": "" } },
+    "sameMeaning": "relating to Africa",
+    "description": ""
+  },
+  {
+    "words": { "ambi": { "meaning": "", "description": "" } },
+    "sameMeaning": "both",
+    "description": ""
+  },
+  {
+    "words": { "amphi": { "meaning": "", "description": "" } },
+    "sameMeaning": "around, two, both, on both sides",
+    "description": ""
+  },
+  {
+    "words": {
+      "an": { "meaning": "", "description": "" },
+      "a": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "not, without",
+    "description": ""
+  },
+  {
+    "words": {
+      "ana": { "meaning": "", "description": "" },
+      "an": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "up, against",
+    "description": ""
+  },
+  {
+    "words": { "anglo": { "meaning": "", "description": "" } },
+    "sameMeaning": "relating to England",
+    "description": ""
+  },
+  {
+    "words": { "ante": { "meaning": "", "description": "" } },
+    "sameMeaning": "before",
+    "description": ""
+  },
+  {
+    "words": { "anti": { "meaning": "", "description": "" } },
+    "sameMeaning": "opposite",
+    "description": ""
+  },
+  {
+    "words": {
+      "apo": { "meaning": "", "description": "" },
+      "ap": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "away from, detached",
+    "description": ""
+  },
+  {
+    "words": { "arch": { "meaning": "", "description": "" } },
+    "sameMeaning": "ruling, dominating, most extreme (pejorative)",
+    "description": ""
+  },
+  {
+    "words": { "astro": { "meaning": "", "description": "" } },
+    "sameMeaning": "star",
+    "description": ""
+  },
+  {
+    "words": { "auto": { "meaning": "", "description": "" } },
+    "sameMeaning": "self",
+    "description": ""
+  },
+  {
+    "words": { "bi": { "meaning": "", "description": "" } },
+    "sameMeaning": "two",
+    "description": ""
+  },
+  {
+    "words": { "bio": { "meaning": "", "description": "" } },
+    "sameMeaning": "life",
+    "description": ""
+  },
+  {
+    "words": { "circum": { "meaning": "", "description": "" } },
+    "sameMeaning": "around, surrounding",
+    "description": ""
+  },
+  {
+    "words": { "cis": { "meaning": "", "description": "" } },
+    "sameMeaning": "on this side of",
+    "description": ""
+  },
+  {
+    "words": {
+      "con": { "meaning": "", "description": "" },
+      "co": { "meaning": "", "description": "" },
+      "com": { "meaning": "", "description": "" },
+      "col": { "meaning": "", "description": "" },
+      "cor": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "together or with",
+    "description": ""
+  },
+  {
+    "words": {
+      "contra": { "meaning": "", "description": "" },
+      "contro": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "opposite",
+    "description": ""
+  },
+  {
+    "words": { "counter": { "meaning": "", "description": "" } },
+    "sameMeaning": "against, in opposition to",
+    "description": ""
+  },
+  {
+    "words": { "cryo": { "meaning": "", "description": "" } },
+    "sameMeaning": "ice",
+    "description": ""
+  },
+  {
+    "words": { "crypto": { "meaning": "", "description": "" } },
+    "sameMeaning": "hidden, secret",
+    "description": ""
+  },
+  {
+    "words": { "de": { "meaning": "", "description": "" } },
+    "sameMeaning": "down",
+    "description": ""
+  },
+  {
+    "words": { "demi": { "meaning": "", "description": "" } },
+    "sameMeaning": "half",
+    "description": ""
+  },
+  {
+    "words": { "demo": { "meaning": "", "description": "" } },
+    "sameMeaning": "people",
+    "description": ""
+  },
+  {
+    "words": { "deuter": { "meaning": "", "description": "" } },
+    "sameMeaning": "second",
+    "description": ""
+  },
+  {
+    "words": { "di": { "meaning": "", "description": "" } },
+    "sameMeaning": "two",
+    "description": ""
+  },
+  {
+    "words": { "dia": { "meaning": "", "description": "" } },
+    "sameMeaning": "through",
+    "description": ""
+  },
+  {
+    "words": {
+      "dis": { "meaning": "", "description": "" },
+      "di": { "meaning": "", "description": "" },
+      "dif": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "apart",
+    "description": ""
+  },
+  {
+    "words": {
+      "du": { "meaning": "", "description": "" },
+      "duo": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "two",
+    "description": ""
+  },
+  {
+    "words": { "eco": { "meaning": "", "description": "" } },
+    "sameMeaning": "ecological",
+    "description": ""
+  },
+  {
+    "words": { "electro": { "meaning": "", "description": "" } },
+    "sameMeaning": "electric, electricity",
+    "description": ""
+  },
+  {
+    "words": {
+      "en": { "meaning": "", "description": "" },
+      "el": { "meaning": "", "description": "" },
+      "em": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "in",
+    "description": ""
+  },
+  {
+    "words": {
+      "epi": { "meaning": "", "description": "" },
+      "ep": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "upon, at, close upon, in addition",
+    "description": ""
+  },
+  {
+    "words": { "euro": { "meaning": "", "description": "" } },
+    "sameMeaning": "European",
+    "description": ""
+  },
+  {
+    "words": { "ex": { "meaning": "", "description": "" } },
+    "sameMeaning": "out of",
+    "description": ""
+  },
+  {
+    "words": { "extra": { "meaning": "", "description": "" } },
+    "sameMeaning": "outside",
+    "description": ""
+  },
+  {
+    "words": { "franco": { "meaning": "", "description": "" } },
+    "sameMeaning": "French, France",
+    "description": ""
+  },
+  {
+    "words": { "geo": { "meaning": "", "description": "" } },
+    "sameMeaning": "relating to the earth or its surface",
+    "description": ""
+  },
+  {
+    "words": { "gyro": { "meaning": "", "description": "" } },
+    "sameMeaning": "spinning on an axis",
+    "description": ""
+  },
+  {
+    "words": { "hetero": { "meaning": "", "description": "" } },
+    "sameMeaning": "different",
+    "description": ""
+  },
+  {
+    "words": { "hemi": { "meaning": "", "description": "" } },
+    "sameMeaning": "half",
+    "description": ""
+  },
+  {
+    "words": { "hispano": { "meaning": "", "description": "" } },
+    "sameMeaning": "Spanish, Spain",
+    "description": ""
+  },
+  {
+    "words": { "homo": { "meaning": "", "description": "" } },
+    "sameMeaning": "same",
+    "description": ""
+  },
+  {
+    "words": { "hydro": { "meaning": "", "description": "" } },
+    "sameMeaning": "relating to water, or using water",
+    "description": ""
+  },
+  {
+    "words": { "hyper": { "meaning": "", "description": "" } },
+    "sameMeaning": "excess, above, over",
+    "description": ""
+  },
+  {
+    "words": { "hypo": { "meaning": "", "description": "" } },
+    "sameMeaning": "deficient, under or below something, low",
+    "description": ""
+  },
+  {
+    "words": { "ideo": { "meaning": "", "description": "" } },
+    "sameMeaning": "image, idea",
+    "description": ""
+  },
+  {
+    "words": { "idio": { "meaning": "", "description": "" } },
+    "sameMeaning": "individual, personal, unique",
+    "description": ""
+  },
+  {
+    "words": { "in": { "meaning": "", "description": "" } },
+    "sameMeaning": "in, into",
+    "description": ""
+  },
+  {
+    "words": { "indo": { "meaning": "", "description": "" } },
+    "sameMeaning": "relating to the Indian subcontinent",
+    "description": ""
+  },
+  {
+    "words": {
+      "in": { "meaning": "", "description": "" },
+      "il": { "meaning": "", "description": "" },
+      "im": { "meaning": "", "description": "" },
+      "ir": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "not, opposite of",
+    "description": ""
+  },
+  {
+    "words": { "infra": { "meaning": "", "description": "" } },
+    "sameMeaning": "below, beneath",
+    "description": ""
+  },
+  {
+    "words": { "inter": { "meaning": "", "description": "" } },
+    "sameMeaning": "among, between",
+    "description": ""
+  },
+  {
+    "words": { "intra": { "meaning": "", "description": "" } },
+    "sameMeaning": "inside, within",
+    "description": ""
+  },
+  {
+    "words": { "iso": { "meaning": "", "description": "" } },
+    "sameMeaning": "equal",
+    "description": ""
+  },
+  {
+    "words": { "italo": { "meaning": "", "description": "" } },
+    "sameMeaning": "Italian, Italy",
+    "description": ""
+  },
+  {
+    "words": { "macro": { "meaning": "", "description": "" } },
+    "sameMeaning": "long",
+    "description": ""
+  },
+  {
+    "words": { "mal": { "meaning": "", "description": "" } },
+    "sameMeaning": "badly",
+    "description": ""
+  },
+  {
+    "words": { "maxi": { "meaning": "", "description": "" } },
+    "sameMeaning": "very long, very large",
+    "description": ""
+  },
+  {
+    "words": {
+      "mega": { "meaning": "", "description": "" },
+      "megalo": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "great, large",
+    "description": ""
+  },
+  {
+    "words": { "meso": { "meaning": "", "description": "" } },
+    "sameMeaning": "middle, intermediate, halfway",
+    "description": ""
+  },
+  {
+    "words": { "meta": { "meaning": "", "description": "" } },
+    "sameMeaning": "after, along with, beyond, among, behind, transcending, self-referential",
+    "description": ""
+  },
+  {
+    "words": { "micro": { "meaning": "", "description": "" } },
+    "sameMeaning": "small",
+    "description": ""
+  },
+  {
+    "words": {
+      "mono": { "meaning": "", "description": "" },
+      "mon": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "sole, only",
+    "description": ""
+  },
+  {
+    "words": {
+      "multi": { "meaning": "", "description": "" },
+      "mult": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "many",
+    "description": ""
+  },
+  {
+    "words": { "neo": { "meaning": "", "description": "" } },
+    "sameMeaning": "new",
+    "description": ""
+  },
+  {
+    "words": { "non": { "meaning": "", "description": "" } },
+    "sameMeaning": "not",
+    "description": ""
+  },
+  {
+    "words": { "ob": { "meaning": "", "description": "" } },
+    "sameMeaning": "to, against",
+    "description": ""
+  },
+  {
+    "words": { "omni": { "meaning": "", "description": "" } },
+    "sameMeaning": "all",
+    "description": ""
+  },
+  {
+    "words": { "ortho": { "meaning": "", "description": "" } },
+    "sameMeaning": "correcting or straightening",
+    "description": ""
+  },
+  {
+    "words": { "paleo": { "meaning": "", "description": "" } },
+    "sameMeaning": "old",
+    "description": ""
+  },
+  {
+    "words": { "pan": { "meaning": "", "description": "" } },
+    "sameMeaning": "all, worldwide",
+    "description": ""
+  },
+  {
+    "words": { "para": { "meaning": "", "description": "" } },
+    "sameMeaning": "beside, beyond",
+    "description": ""
+  },
+  {
+    "words": { "ped": { "meaning": "", "description": "" } },
+    "sameMeaning": "foot",
+    "description": ""
+  },
+  {
+    "words": { "pen": { "meaning": "", "description": "" } },
+    "sameMeaning": "almost",
+    "description": ""
+  },
+  {
+    "words": { "per": { "meaning": "", "description": "" } },
+    "sameMeaning": "through, completely, wrongly, exceedingly",
+    "description": ""
+  },
+  {
+    "words": { "peri": { "meaning": "", "description": "" } },
+    "sameMeaning": "around, near or adjacent",
+    "description": ""
+  },
+  {
+    "words": { "photo": { "meaning": "", "description": "" } },
+    "sameMeaning": "light",
+    "description": ""
+  },
+  {
+    "words": { "pleo": { "meaning": "", "description": "" } },
+    "sameMeaning": "more",
+    "description": ""
+  },
+  {
+    "words": { "pod": { "meaning": "", "description": "" } },
+    "sameMeaning": "foot",
+    "description": ""
+  },
+  {
+    "words": { "poly": { "meaning": "", "description": "" } },
+    "sameMeaning": "many",
+    "description": ""
+  },
+  {
+    "words": { "post": { "meaning": "", "description": "" } },
+    "sameMeaning": "after",
+    "description": ""
+  },
+  {
+    "words": { "pre": { "meaning": "", "description": "" } },
+    "sameMeaning": "before",
+    "description": ""
+  },
+  {
+    "words": { "preter": { "meaning": "", "description": "" } },
+    "sameMeaning": "beyond, past, more than",
+    "description": ""
+  },
+  {
+    "words": { "pro": { "meaning": "", "description": "" } },
+    "sameMeaning": "for, substitute, deputy",
+    "description": ""
+  },
+  {
+    "words": { "pro": { "meaning": "", "description": "" } },
+    "sameMeaning": "before",
+    "description": ""
+  },
+  {
+    "words": { "pros": { "meaning": "", "description": "" } },
+    "sameMeaning": "toward",
+    "description": ""
+  },
+  {
+    "words": { "proto": { "meaning": "", "description": "" } },
+    "sameMeaning": "first, original",
+    "description": ""
+  },
+  {
+    "words": { "pseudo": { "meaning": "", "description": "" } },
+    "sameMeaning": "false, imitation",
+    "description": ""
+  },
+  {
+    "words": { "pyro": { "meaning": "", "description": "" } },
+    "sameMeaning": "fire",
+    "description": ""
+  },
+  {
+    "words": { "quadri": { "meaning": "", "description": "" } },
+    "sameMeaning": "four",
+    "description": ""
+  },
+  {
+    "words": { "quasi": { "meaning": "", "description": "" } },
+    "sameMeaning": "partly, almost, appearing to be but not really",
+    "description": ""
+  },
+  {
+    "words": { "retro": { "meaning": "", "description": "" } },
+    "sameMeaning": "backwards",
+    "description": ""
+  },
+  {
+    "words": { "semi": { "meaning": "", "description": "" } },
+    "sameMeaning": "half",
+    "description": ""
+  },
+  {
+    "words": { "socio": { "meaning": "", "description": "" } },
+    "sameMeaning": "society, social, sociological",
+    "description": ""
+  },
+  {
+    "words": {
+      "sub": { "meaning": "", "description": "" },
+      "sup": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "below, under",
+    "description": ""
+  },
+  {
+    "words": { "super": { "meaning": "", "description": "" } },
+    "sameMeaning": "above, over",
+    "description": ""
+  },
+  {
+    "words": { "supra": { "meaning": "", "description": "" } },
+    "sameMeaning": "above, over",
+    "description": ""
+  },
+  {
+    "words": { "sur": { "meaning": "", "description": "" } },
+    "sameMeaning": "above, over",
+    "description": ""
+  },
+  {
+    "words": {
+      "syn": { "meaning": "", "description": "" },
+      "sy": { "meaning": "", "description": "" },
+      "syl": { "meaning": "", "description": "" },
+      "sym": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "together, with",
+    "description": ""
+  },
+  {
+    "words": { "tele": { "meaning": "", "description": "" } },
+    "sameMeaning": "at a distance",
+    "description": ""
+  },
+  {
+    "words": { "trans": { "meaning": "", "description": "" } },
+    "sameMeaning": "across, over",
+    "description": ""
+  },
+  {
+    "words": { "tri": { "meaning": "", "description": "" } },
+    "sameMeaning": "three",
+    "description": ""
+  },
+  {
+    "words": { "ultra": { "meaning": "", "description": "" } },
+    "sameMeaning": "beyond",
+    "description": ""
+  },
+  {
+    "words": { "uni": { "meaning": "", "description": "" } },
+    "sameMeaning": "one, consisting of only one",
+    "description": ""
+  },
+  {
+    "words": { "vice": { "meaning": "", "description": "" } },
+    "sameMeaning": "deputy",
+    "description": ""
+  },
+  {
+    "words": { "gain": { "meaning": "", "description": "" } },
+    "sameMeaning": "against",
+    "description": ""
+  },
+  {
+    "words": { "umbe": { "meaning": "", "description": "" } },
+    "sameMeaning": "around",
+    "description": ""
+  },
+  {
+    "words": { "y": { "meaning": "", "description": "" } },
+    "sameMeaning": "inflectional word",
+    "description": ""
+  }
+]

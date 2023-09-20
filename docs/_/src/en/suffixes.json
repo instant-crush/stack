@@ -1,0 +1,820 @@
+[
+  {
+    "words": {
+      "able": {
+        "meaning": "able to do something",
+        "descriptions": [
+          "It is a more productive suffix, meaning that it is still used to create new words."
+        ]
+      },
+      "ible": {
+        "meaning": "able to be done",
+        "descriptions": [
+          "It is a less productive suffix, and it is mostly used in older words that have been passed down through the centuries."
+        ]
+      }
+    },
+    "sameMeaning": "capable of or suitable for",
+    "description": "",
+    "partsOfSpeech": ["v", "n", "adj"]
+  },
+  {
+    "words": {
+      "ac": { "meaning": "", "descriptions": [] },
+      "al": { "meaning": "", "descriptions": [] }
+    },
+    "sameMeaning": "pertaining to",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": {
+      "acity": {
+        "meaning": "refers to the quality or state of being",
+        "descriptions": []
+      },
+      "ocity": {
+        "meaning": "refers to the speed or rate of",
+        "descriptions": []
+      }
+    },
+    "sameMeaning": "quality of, state of",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "acy": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "pertaining to",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "ade": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "act, action or process, product",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": { "age": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "action or process",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": {
+      "aholic": {
+        "meaning": "used to describe someone who is addicted to something",
+        "descriptions": ["drug, alcohol, or a particular behavior"]
+      },
+      "oholic": {
+        "meaning": "used to describe someone who is obsessed with something",
+        "descriptions": ["not necessarily addicted to it"]
+      },
+      "maniac": {
+        "meaning": "used to describe someone who has a strong interest in or love of something",
+        "descriptions": []
+      },
+      "phil": {
+        "meaning": "used to describe someone who is extremely enthusiastic about or obsessed with something",
+        "descriptions": []
+      }
+    },
+    "sameMeaning": "a person who has an excessive fondness for or obsession with something",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": { "algia": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "pain",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": {
+      "an": { "meaning": "", "descriptions": [] }
+    },
+    "sameMeaning": "relating to, belonging to",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": {
+      "ance": { "meaning": "", "descriptions": [] },
+      "ence": { "meaning": "", "descriptions": [] }
+    },
+    "sameMeaning": "state or quality of",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "ar": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "of or relating to, being, a person who",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "ard": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "a person who does an action",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": { "arian": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "a person who",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": {
+      "arium": {
+        "meaning": "",
+        "descriptions": [
+          "more commonly used to refer to places where things are kept"
+        ]
+      },
+      "orium": {
+        "meaning": "",
+        "descriptions": [
+          "more commonly used to refer to places where things are done"
+        ]
+      }
+    },
+    "sameMeaning": "places or rooms for",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "ary": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "of or relating to",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": { "ate": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "state or quality of (adj.), makes the word a verb (different pronunciation)",
+    "description": "",
+    "partsOfSpeech": ["v", "adj"]
+  },
+  {
+    "words": { "ative": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "tending to (adj.)",
+    "description": "",
+    "partsOfSpeech": ["adj"]
+  },
+  {
+    "words": { "cide": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "act of killing",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "cracy": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "rule, government, power",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "crat": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "someone who has power",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "cule": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "diminutive (making something small)",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": { "cy": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "state, condition or quality",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "cycle": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "circle, wheel",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": { "dom": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "condition of, state, realm",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "dox": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "belief, praise",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": { "ectomy": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "surgical removal of",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": {
+      "ant": {
+        "meaning": "refer to people who assist with something or are members of a group",
+        "descriptions": []
+      },
+      "ee": {
+        "meaning": "refer to people who receive or undergo something",
+        "descriptions": []
+      },
+      "eer": {
+        "meaning": "refer to people who do something with skill or expertise",
+        "descriptions": []
+      },
+      "er": {
+        "meaning": "refer to people who do something",
+        "descriptions": []
+      },
+      "or": {
+        "meaning": "refer to people who are in charge of something or who have some kind of authority",
+        "descriptions": []
+      },
+      "ist": {
+        "meaning": "refer to people who study or practice something",
+        "descriptions": []
+      },
+      "ian": {
+        "meaning": "refer to people who are from a particular place or who belong to a particular group",
+        "descriptions": []
+      },
+      "ator": {
+        "meaning": "refer to people who operate or use something",
+        "descriptions": []
+      },
+      "ent": {
+        "meaning": "refer to people who are in a particular state or condition",
+        "descriptions": []
+      }
+    },
+    "sameMeaning": "person who does something or person who is something",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "emia": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "blood condition",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "en": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "makes the word a verb",
+    "description": "",
+    "partsOfSpeech": ["v"]
+  },
+  {
+    "words": { "ency": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "condition or quality",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "ern": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "state or quality of",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": { "escence": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "state or process",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "ese": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "relating to a place",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": { "ess": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "female",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "etic": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "relating to (makes the word an adj.)",
+    "description": "",
+    "partsOfSpeech": ["adj"]
+  },
+  {
+    "words": { "ette": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "diminutive (makes something smaller)",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": {
+      "ful": {
+        "meaning": "having or full of",
+        "descriptions": [
+          "often used to describe positive qualities",
+          "something is present to a high degree"
+        ]
+      },
+      "ous": {
+        "meaning": "full of or having the qualities of",
+        "descriptions": [
+          "often used to describe negative qualities",
+          "something is present to a moderate degree"
+        ]
+      },
+      "ious": {
+        "meaning": "full of or characterized by.",
+        "descriptions": ["something is present to a slight degree"]
+      }
+    },
+    "sameMeaning": "full of",
+    "description": "",
+    "partsOfSpeech": ["adj"]
+  },
+  {
+    "words": { "fy": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "make, cause (makes the word a verb)",
+    "description": "",
+    "partsOfSpeech": ["v"]
+  },
+  {
+    "words": {
+      "gam": {
+        "meaning": "used to describe people who are married or in a union",
+        "descriptions": []
+      },
+      "gamy": {
+        "meaning": "used to describe systems or practices related to marriage or unions",
+        "descriptions": []
+      }
+    },
+    "sameMeaning": "marriage, union",
+    "description": "",
+    "partsOfSpeech": ["adj"]
+  },
+  {
+    "words": {
+      "gon": {
+        "meaning": "",
+        "descriptions": [
+          "more commonly used to refer to types of polygons",
+          "describe the number of sides of a polygon"
+        ]
+      },
+      "gonic": {
+        "meaning": "",
+        "descriptions": [
+          "more commonly used to refer to properties of polygons",
+          "describe the properties of angles"
+        ]
+      },
+      "angular": {
+        "meaning": "",
+        "descriptions": ["describe the properties of solids"]
+      },
+      "hedral": {
+        "meaning": "",
+        "descriptions": ["describe the angularity of something"]
+      }
+    },
+    "sameMeaning": "related to angle",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": { "hood": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "state, condition, or quality",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "ial": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "relating to",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": { "iasis": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "diseased condition",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "iatric": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "healing practice",
+    "description": "",
+    "partsOfSpeech": ["adj"]
+  },
+  {
+    "words": {
+      "ic": { "meaning": "", "descriptions": [] },
+      "ical": { "meaning": "", "descriptions": [] }
+    },
+    "sameMeaning": "relating to, characterized by",
+    "description": "",
+    "partsOfSpeech": ["adj"]
+  },
+  {
+    "words": { "ify": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "",
+    "description": "",
+    "partsOfSpeech": ["v"]
+  },
+  {
+    "words": { "ile": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "relating to, capable of",
+    "description": "",
+    "partsOfSpeech": ["adj"]
+  },
+  {
+    "words": { "ily": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "in what manner",
+    "description": "",
+    "partsOfSpeech": ["adv"]
+  },
+  {
+    "words": { "ine": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "relating to",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": {
+      "ion": {
+        "meaning": "",
+        "descriptions": ["used after stems that end in a vowel"]
+      },
+      "ation": {
+        "meaning": "act or process of",
+        "descriptions": [
+          "used to form nouns from verbs that describe processes of becoming or making something"
+        ]
+      },
+      "tion": {
+        "meaning": "act or process of",
+        "descriptions": ["used after stems that end in a consonant"]
+      },
+      "ization": {
+        "meaning": "act or process of",
+        "descriptions": [
+          "used to form nouns from verbs that describe processes of becoming or making something"
+        ]
+      },
+      "sion": {
+        "meaning": "",
+        "descriptions": [
+          "used after stems that end in certain consonants, such as 'c', 't', 's'"
+        ]
+      },
+      "xion": { "meaning": "", "descriptions": [] }
+    },
+    "sameMeaning": "actions, processes, states, qualities",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "ish": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "relating to, characteristic",
+    "description": "",
+    "partsOfSpeech": ["adj"]
+  },
+  {
+    "words": {
+      "ism": {
+        "meaning": "belief that something is important",
+        "descriptions": []
+      }
+    },
+    "sameMeaning": "state or quality",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "ite": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "resident of, follower, product of",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": { "itis": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "inflammation, preoccupation",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": {
+      "ity": { "meaning": "", "descriptions": [] },
+      "ty": { "meaning": "", "descriptions": [] }
+    },
+    "sameMeaning": "state, condition, or quality",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "ive": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "inclined to; quality of; that which",
+    "description": "",
+    "partsOfSpeech": ["adj"]
+  },
+  {
+    "words": {
+      "ise": { "meaning": "", "descriptions": [] },
+      "ize": { "meaning": "", "descriptions": [] }
+    },
+    "sameMeaning": "cause, treat, become",
+    "description": "",
+    "partsOfSpeech": ["v"]
+  },
+  {
+    "words": { "less": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "without",
+    "description": "",
+    "partsOfSpeech": ["adj"]
+  },
+  {
+    "words": { "let": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "version of",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": {
+      "like": { "meaning": "", "descriptions": [] },
+      "esque": { "meaning": "", "descriptions": [] }
+    },
+    "sameMeaning": "resembling, characteristic",
+    "description": "",
+    "partsOfSpeech": ["adj"]
+  },
+  {
+    "words": { "ling": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "younger or inferior",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": {
+      "loger": { "meaning": "", "descriptions": [] },
+      "logist": { "meaning": "", "descriptions": [] }
+    },
+    "sameMeaning": "one who does",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "log": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "speech",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": { "ly": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "in what manner",
+    "description": "",
+    "partsOfSpeech": ["adj", "adv"]
+  },
+  {
+    "words": { "ment": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "action, result",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "ness": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "state or quality (makes a noun)",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "oid": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "resembling",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": { "ology": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "study of, science of",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "oma": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "tumor, swelling",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "onym": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "name, word",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": {
+      "opia": { "meaning": "abnormal condition of the eye", "descriptions": [] }
+    },
+    "sameMeaning": "eye defect",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "opsy": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "examination",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "ory": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "relating to",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": { "osis": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "process, diseased condition",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": {
+      "ostomy": { "meaning": "", "descriptions": [] },
+      "otomy": { "meaning": "", "descriptions": [] }
+    },
+    "sameMeaning": "surgical",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "path": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "one who engages in",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "phile": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "one who loves",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "phobia": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "abnormal fear of",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "phone": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "sound",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": { "phyte": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "plant, to grow",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "plegia": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "paralysis",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "plegic": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "one who is paralyzed",
+    "description": "",
+    "partsOfSpeech": ["adj"]
+  },
+  {
+    "words": { "pnea": { "meaning": "breath", "descriptions": [] } },
+    "sameMeaning": "air, spirit",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": {
+      "scopy": { "meaning": "", "descriptions": [] },
+      "scope": { "meaning": "", "descriptions": [] }
+    },
+    "sameMeaning": "visual exam",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": {
+      "scribe": { "meaning": "", "descriptions": [] },
+      "script": { "meaning": "", "descriptions": [] }
+    },
+    "sameMeaning": "to write",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "sect": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "to cut",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "ship": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "state or condition of, skill of",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": {
+      "some": { "meaning": "a certain amount", "descriptions": [] }
+    },
+    "sameMeaning": "characterized by, group of",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": {
+      "sophy": { "meaning": "", "descriptions": [] },
+      "sophic": { "meaning": "", "descriptions": [] }
+    },
+    "sameMeaning": "wisdom, knowledge",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": { "th": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "state or quality",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": {
+      "tome": { "meaning": "", "descriptions": [] },
+      "tomy": { "meaning": "", "descriptions": [] }
+    },
+    "sameMeaning": "to cut",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "trophy": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "nourishment, growth",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "tude": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "state, condition or quality",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "ular": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "relating to or resembling",
+    "description": "",
+    "partsOfSpeech": ["adj"]
+  },
+  {
+    "words": { "uous": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "state or quality of",
+    "description": "",
+    "partsOfSpeech": ["adj"]
+  },
+  {
+    "words": { "ure": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "action, condition",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  },
+  {
+    "words": {
+      "ward": { "meaning": "", "descriptions": [] },
+      "wards": { "meaning": "", "descriptions": [] }
+    },
+    "sameMeaning": "specifies direction",
+    "description": "",
+    "partsOfSpeech": ["adj", "adv"]
+  },
+  {
+    "words": { "ware": { "meaning": "ware of", "descriptions": [] } },
+    "sameMeaning": "things of the same type or material",
+    "description": "",
+    "partsOfSpeech": ["n"]
+  },
+  {
+    "words": { "wise": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "in what manner or direction",
+    "description": "",
+    "partsOfSpeech": ["adj", "adv"]
+  },
+  {
+    "words": { "y": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "made up of, characterized",
+    "description": "",
+    "partsOfSpeech": ["n", "adj"]
+  }
+]
