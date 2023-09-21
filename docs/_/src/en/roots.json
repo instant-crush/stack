@@ -70,7 +70,10 @@
     "description": ""
   },
   {
-    "words": { "acr": { "meaning": "", "description": "" } },
+    "words": {
+      "acr": { "meaning": "", "description": "" },
+      "acro": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "height, summit, tip, top",
     "description": ""
   },
@@ -129,7 +132,10 @@
     "description": ""
   },
   {
-    "words": { "aesth": { "meaning": "", "description": "" } },
+    "words": {
+      "aesth": { "meaning": "", "description": "" },
+      "eesth": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "feeling, sensation",
     "description": ""
   },
@@ -169,13 +175,10 @@
     "description": ""
   },
   {
-    "words": { "agr": { "meaning": "", "description": "" } },
-    "sameMeaning": "field",
-    "description": ""
-  },
-  {
     "words": {
+      "agr": { "meaning": "", "description": "" },
       "agri": { "meaning": "", "description": "" },
+      "agro": { "meaning": "", "description": "" },
       "egri": { "meaning": "", "description": "" }
     },
     "sameMeaning": "field",
@@ -207,7 +210,10 @@
     "description": ""
   },
   {
-    "words": { "alg": { "meaning": "", "description": "" } },
+    "words": {
+      "alg": { "meaning": "", "description": "" },
+      "algo": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "pain",
     "description": ""
   },
@@ -254,6 +260,14 @@
   },
   {
     "words": {
+      "ami": { "meaning": "", "description": "" },
+      "amio": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "love",
+    "description": ""
+  },
+  {
+    "words": {
       "am": { "meaning": "", "description": "" },
       "amic": { "meaning": "", "description": "" },
       "imic": { "meaning": "", "description": "" }
@@ -269,6 +283,8 @@
   {
     "words": {
       "ambi": { "meaning": "", "description": "" },
+      "amph": { "meaning": "", "description": "" },
+      "amphi": { "meaning": "", "description": "" },
       "am": { "meaning": "", "description": "" },
       "amb": { "meaning": "", "description": "" },
       "ambo": { "meaning": "", "description": "" },
@@ -295,14 +311,6 @@
   {
     "words": { "amn": { "meaning": "", "description": "" } },
     "sameMeaning": "lamb",
-    "description": ""
-  },
-  {
-    "words": {
-      "amph": { "meaning": "", "description": "" },
-      "amphi": { "meaning": "", "description": "" }
-    },
-    "sameMeaning": "both, on both sides of, both kinds",
     "description": ""
   },
   {
@@ -335,7 +343,10 @@
     "description": ""
   },
   {
-    "words": { "andr": { "meaning": "", "description": "" } },
+    "words": {
+      "andr": { "meaning": "", "description": "" },
+      "andro": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "male, masculine",
     "description": ""
   },
@@ -352,7 +363,9 @@
   {
     "words": {
       "ann": { "meaning": "", "description": "" },
-      "enn": { "meaning": "", "description": "" }
+      "anni": { "meaning": "", "description": "" },
+      "enn": { "meaning": "", "description": "" },
+      "enni": { "meaning": "", "description": "" }
     },
     "sameMeaning": "year, yearly",
     "description": ""
@@ -374,7 +387,10 @@
     "description": ""
   },
   {
-    "words": { "anth": { "meaning": "", "description": "" } },
+    "words": {
+      "anth": { "meaning": "", "description": "" },
+      "antho": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "flower",
     "description": ""
   },
@@ -384,14 +400,18 @@
     "description": ""
   },
   {
-    "words": { "anthrop": { "meaning": "", "description": "" } },
+    "words": {
+      "anthrop": { "meaning": "", "description": "" },
+      "anthropo": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "human",
     "description": ""
   },
   {
     "words": {
       "ap": { "meaning": "", "description": "" },
-      "apo": { "meaning": "", "description": "" }
+      "apo": { "meaning": "", "description": "" },
+      "apho": { "meaning": "", "description": "" }
     },
     "sameMeaning": "off, away from, separate, at the farthest point",
     "description": ""
@@ -412,7 +432,10 @@
     "description": ""
   },
   {
-    "words": { "aqu": { "meaning": "", "description": "" } },
+    "words": {
+      "aqu": { "meaning": "", "description": "" },
+      "aqua": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "water",
     "description": ""
   },
@@ -432,6 +455,11 @@
     "description": ""
   },
   {
+    "words": { "arbor": { "meaning": "", "description": "" } },
+    "sameMeaning": "tree",
+    "description": ""
+  },
+  {
     "words": { "arcan": { "meaning": "", "description": "" } },
     "sameMeaning": "box",
     "description": ""
@@ -439,6 +467,7 @@
   {
     "words": {
       "arch": { "meaning": "", "description": "" },
+      "archa": { "meaning": "", "description": "" },
       "arche": { "meaning": "", "description": "" },
       "archi": { "meaning": "", "description": "" }
     },
@@ -509,7 +538,10 @@
     "description": ""
   },
   {
-    "words": { "arthr": { "meaning": "", "description": "" } },
+    "words": {
+      "arthr": { "meaning": "", "description": "" },
+      "arthro": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "joint",
     "description": ""
   },
@@ -540,8 +572,9 @@
   },
   {
     "words": {
+      "astr": { "meaning": "", "description": "" },
       "aster": { "meaning": "", "description": "" },
-      "astr": { "meaning": "", "description": "" }
+      "asteo": { "meaning": "", "description": "" }
     },
     "sameMeaning": "star, star-shaped",
     "description": ""
@@ -572,7 +605,11 @@
     "description": ""
   },
   {
-    "words": { "aud": { "meaning": "", "description": "" } },
+    "words": {
+      "aud": { "meaning": "", "description": "" },
+      "audi": { "meaning": "", "description": "" },
+      "audio": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "hearing, listening, sound",
     "description": ""
   },
@@ -622,8 +659,9 @@
   },
   {
     "words": {
+      "au": { "meaning": "", "description": "" },
       "avi": { "meaning": "", "description": "" },
-      "au": { "meaning": "", "description": "" }
+      "avia": { "meaning": "", "description": "" }
     },
     "sameMeaning": "bird",
     "description": ""
@@ -663,7 +701,10 @@
     "description": ""
   },
   {
-    "words": { "bar": { "meaning": "", "description": "" } },
+    "words": {
+      "bar": { "meaning": "", "description": "" },
+      "baro": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "pressure",
     "description": ""
   },
@@ -718,7 +759,10 @@
     "description": ""
   },
   {
-    "words": { "bibl": { "meaning": "", "description": "" } },
+    "words": {
+      "bibl": { "meaning": "", "description": "" },
+      "biblio": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "book",
     "description": ""
   },
@@ -731,7 +775,10 @@
     "description": ""
   },
   {
-    "words": { "blast": { "meaning": "", "description": "" } },
+    "words": {
+      "blast": { "meaning": "", "description": "" },
+      "blasto": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "germ, embryo, bud, cell with nucleus",
     "description": ""
   },
@@ -885,6 +932,14 @@
   },
   {
     "words": {
+      "cide": { "meaning": "", "description": "" },
+      "cise": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "cat, kill",
+    "description": ""
+  },
+  {
+    "words": {
       "caed": { "meaning": "", "description": "" },
       "cid": { "meaning": "", "description": "" },
       "caes": { "meaning": "", "description": "" },
@@ -967,7 +1022,8 @@
       "cap": { "meaning": "", "description": "" },
       "cip": { "meaning": "", "description": "" },
       "capt": { "meaning": "", "description": "" },
-      "cept": { "meaning": "", "description": "" }
+      "cept": { "meaning": "", "description": "" },
+      "ceive": { "meaning": "", "description": "" }
     },
     "sameMeaning": "hold, take",
     "description": ""
@@ -1011,7 +1067,10 @@
     "description": ""
   },
   {
-    "words": { "cardi": { "meaning": "", "description": "" } },
+    "words": {
+      "cardi": { "meaning": "", "description": "" },
+      "cardio": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "heart",
     "description": ""
   },
@@ -1021,7 +1080,10 @@
     "description": ""
   },
   {
-    "words": { "carn": { "meaning": "", "description": "" } },
+    "words": {
+      "carn": { "meaning": "", "description": "" },
+      "carni": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "flesh",
     "description": ""
   },
@@ -1082,6 +1144,7 @@
   {
     "words": {
       "ced": { "meaning": "", "description": "" },
+      "ceed": { "meaning": "", "description": "" },
       "cess": { "meaning": "", "description": "" }
     },
     "sameMeaning": "move, yield, go, surrender",
@@ -1124,7 +1187,10 @@
     "description": ""
   },
   {
-    "words": { "cent": { "meaning": "", "description": "" } },
+    "words": {
+      "cent": { "meaning": "", "description": "" },
+      "centi": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "hundred",
     "description": ""
   },
@@ -1139,18 +1205,33 @@
     "description": ""
   },
   {
-    "words": { "centr": { "meaning": "", "description": "" } },
+    "words": {
+      "centr": { "meaning": "", "description": "" },
+      "centro": { "meaning": "", "description": "" },
+      "centri": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "center",
     "description": ""
   },
   {
-    "words": { "centri": { "meaning": "", "description": "" } },
-    "sameMeaning": "center",
-    "description": ""
-  },
-  {
-    "words": { "cephal": { "meaning": "", "description": "" } },
+    "words": {
+      "cephal": { "meaning": "", "description": "" },
+      "cephalo": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "head",
+    "description": ""
+  },
+  {
+    "words": {
+      "cerebr": { "meaning": "", "description": "" },
+      "cerebro": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "brain",
+    "description": ""
+  },
+  {
+    "words": { "cert": { "meaning": "", "description": "" } },
+    "sameMeaning": "sure",
     "description": ""
   },
   {
@@ -1224,18 +1305,28 @@
   {
     "words": {
       "chro": { "meaning": "", "description": "" },
-      "chrom": { "meaning": "", "description": "" }
+      "chros": { "meaning": "", "description": "" },
+      "chrom": { "meaning": "", "description": "" },
+      "chromo": { "meaning": "", "description": "" },
+      "chromat": { "meaning": "", "description": "" },
+      "chromato": { "meaning": "", "description": "" }
     },
-    "sameMeaning": "color",
+    "sameMeaning": "color, pigment",
     "description": ""
   },
   {
-    "words": { "chron": { "meaning": "", "description": "" } },
+    "words": {
+      "chron": { "meaning": "", "description": "" },
+      "chrono": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "time",
     "description": ""
   },
   {
-    "words": { "chrys": { "meaning": "", "description": "" } },
+    "words": {
+      "chrys": { "meaning": "", "description": "" },
+      "chryso": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "gold",
     "description": ""
   },
@@ -1263,7 +1354,10 @@
     "description": ""
   },
   {
-    "words": { "circum": { "meaning": "", "description": "" } },
+    "words": {
+      "circum": { "meaning": "", "description": "" },
+      "circle": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "around",
     "description": ""
   },
@@ -1293,7 +1387,10 @@
     "description": ""
   },
   {
-    "words": { "clam": { "meaning": "", "description": "" } },
+    "words": {
+      "clam": { "meaning": "", "description": "" },
+      "claim": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "cry out",
     "description": ""
   },
@@ -1338,8 +1435,16 @@
     "description": ""
   },
   {
-    "words": { "clin": { "meaning": "", "description": "" } },
+    "words": {
+      "clin": { "meaning": "", "description": "" },
+      "clain": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "bed, lean, recline",
+    "description": ""
+  },
+  {
+    "words": { "cumul": { "meaning": "", "description": "" } },
+    "sameMeaning": "mass, heap",
     "description": ""
   },
   {
@@ -1350,6 +1455,14 @@
   {
     "words": { "coel": { "meaning": "", "description": "" } },
     "sameMeaning": "hollow",
+    "description": ""
+  },
+  {
+    "words": {
+      "cogn": { "meaning": "", "description": "" },
+      "cogni": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "know",
     "description": ""
   },
   {
@@ -1402,7 +1515,10 @@
     "description": ""
   },
   {
-    "words": { "contra": { "meaning": "", "description": "" } },
+    "words": {
+      "contra": { "meaning": "", "description": "" },
+      "contrao": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "against",
     "description": ""
   },
@@ -1450,7 +1566,11 @@
     "description": ""
   },
   {
-    "words": { "corpor": { "meaning": "", "description": "" } },
+    "words": {
+      "corp": { "meaning": "", "description": "" },
+      "corpo": { "meaning": "", "description": "" },
+      "corpor": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "body",
     "description": ""
   },
@@ -1460,7 +1580,10 @@
     "description": ""
   },
   {
-    "words": { "cosm": { "meaning": "", "description": "" } },
+    "words": {
+      "cosm": { "meaning": "", "description": "" },
+      "cosmo": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "universe",
     "description": ""
   },
@@ -1475,6 +1598,11 @@
     "description": ""
   },
   {
+    "words": { "counter": { "meaning": "", "description": "" } },
+    "sameMeaning": "opposite, contrary, opposing",
+    "description": ""
+  },
+  {
     "words": { "cotyl": { "meaning": "", "description": "" } },
     "sameMeaning": "cup",
     "description": ""
@@ -1485,7 +1613,10 @@
     "description": ""
   },
   {
-    "words": { "crani": { "meaning": "", "description": "" } },
+    "words": {
+      "crani": { "meaning": "", "description": "" },
+      "cranio": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "skull",
     "description": ""
   },
@@ -1568,7 +1699,10 @@
     "description": ""
   },
   {
-    "words": { "crypt": { "meaning": "", "description": "" } },
+    "words": {
+      "crypt": { "meaning": "", "description": "" },
+      "crypto": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "hide, hidden",
     "description": ""
   },
@@ -1697,12 +1831,19 @@
     "description": ""
   },
   {
-    "words": { "dec": { "meaning": "", "description": "" } },
+    "words": {
+      "dec": { "meaning": "", "description": "" },
+      "deca": { "meaning": "", "description": "" },
+      "deka": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "ten",
     "description": ""
   },
   {
-    "words": { "decim": { "meaning": "", "description": "" } },
+    "words": {
+      "deci": { "meaning": "", "description": "" },
+      "decim": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "tenth part",
     "description": ""
   },
@@ -1730,7 +1871,10 @@
     "description": ""
   },
   {
-    "words": { "dem": { "meaning": "", "description": "" } },
+    "words": {
+      "dem": { "meaning": "", "description": "" },
+      "demo": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "people",
     "description": ""
   },
@@ -1758,7 +1902,11 @@
     "description": ""
   },
   {
-    "words": { "dendr": { "meaning": "", "description": "" } },
+    "words": {
+      "dendr": { "meaning": "", "description": "" },
+      "dendro": { "meaning": "", "description": "" },
+      "dendri": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "tree",
     "description": ""
   },
@@ -1768,12 +1916,19 @@
     "description": ""
   },
   {
-    "words": { "dent": { "meaning": "", "description": "" } },
+    "words": {
+      "dent": { "meaning": "", "description": "" },
+      "dont": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "tooth",
     "description": ""
   },
   {
-    "words": { "der": { "meaning": "", "description": "" } },
+    "words": {
+      "der": { "meaning": "", "description": "" },
+      "derm": { "meaning": "", "description": "" },
+      "derma": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "skin",
     "description": ""
   },
@@ -1798,8 +1953,19 @@
     "description": ""
   },
   {
-    "words": { "di": { "meaning": "", "description": "" } },
+    "words": {
+      "di": { "meaning": "", "description": "" },
+      "didiplo": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "two",
+    "description": ""
+  },
+  {
+    "words": {
+      "di": { "meaning": "", "description": "" },
+      "dis": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "apart, away, not, to the opposite",
     "description": ""
   },
   {
@@ -1895,7 +2061,10 @@
     "description": ""
   },
   {
-    "words": { "don": { "meaning": "", "description": "" } },
+    "words": {
+      "don": { "meaning": "", "description": "" },
+      "donat": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "give",
     "description": ""
   },
@@ -1943,7 +2112,10 @@
     "description": ""
   },
   {
-    "words": { "du": { "meaning": "", "description": "" } },
+    "words": {
+      "du": { "meaning": "", "description": "" },
+      "duo": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "two",
     "description": ""
   },
@@ -1976,7 +2148,11 @@
     "description": ""
   },
   {
-    "words": { "dyna": { "meaning": "", "description": "" } },
+    "words": {
+      "dyn": { "meaning": "", "description": "" },
+      "dyna": { "meaning": "", "description": "" },
+      "dynam": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "power",
     "description": ""
   },
@@ -2182,7 +2358,10 @@
     "description": ""
   },
   {
-    "words": { "ethn": { "meaning": "", "description": "" } },
+    "words": {
+      "ethn": { "meaning": "", "description": "" },
+      "ethno": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "people, race, tribe, nation",
     "description": ""
   },
@@ -2216,7 +2395,10 @@
     "description": ""
   },
   {
-    "words": { "extra": { "meaning": "", "description": "" } },
+    "words": {
+      "extra": { "meaning": "", "description": "" },
+      "extro": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "outer",
     "description": ""
   },
@@ -2436,7 +2618,11 @@
     "description": ""
   },
   {
-    "words": { "flor": { "meaning": "", "description": "" } },
+    "words": {
+      "flor": { "meaning": "", "description": "" },
+      "flora": { "meaning": "", "description": "" },
+      "fleur": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "flower",
     "description": ""
   },
@@ -2480,6 +2666,11 @@
   {
     "words": { "for": { "meaning": "", "description": "" } },
     "sameMeaning": "bore, drill",
+    "description": ""
+  },
+  {
+    "words": { "fore": { "meaning": "", "description": "" } },
+    "sameMeaning": "in front of, previous, earlier",
     "description": ""
   },
   {
@@ -2612,6 +2803,11 @@
     "description": ""
   },
   {
+    "words": { "gage": { "meaning": "", "description": "" } },
+    "sameMeaning": "pledge or surety",
+    "description": ""
+  },
+  {
     "words": { "galact": { "meaning": "", "description": "" } },
     "sameMeaning": "milk",
     "description": ""
@@ -2672,6 +2868,9 @@
   {
     "words": {
       "gen": { "meaning": "", "description": "" },
+      "geno": { "meaning": "", "description": "" },
+      "gene": { "meaning": "", "description": "" },
+      "genesis": { "meaning": "", "description": "" },
       "gon": { "meaning": "", "description": "" }
     },
     "sameMeaning": "birth, beget, race, kind",
@@ -2713,6 +2912,11 @@
   {
     "words": { "geu": { "meaning": "", "description": "" } },
     "sameMeaning": "taste",
+    "description": ""
+  },
+  {
+    "words": { "giga": { "meaning": "", "description": "" } },
+    "sameMeaning": "a billion",
     "description": ""
   },
   {
@@ -2804,14 +3008,19 @@
   {
     "words": {
       "grad": { "meaning": "", "description": "" },
+      "gradi": { "meaning": "", "description": "" },
       "gred": { "meaning": "", "description": "" },
+      "grede": { "meaning": "", "description": "" },
       "gress": { "meaning": "", "description": "" }
     },
     "sameMeaning": "walk, step, go",
     "description": ""
   },
   {
-    "words": { "gramm": { "meaning": "", "description": "" } },
+    "words": {
+      "gram": { "meaning": "", "description": "" },
+      "gramm": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "letter, writing",
     "description": ""
   },
@@ -2826,7 +3035,10 @@
     "description": ""
   },
   {
-    "words": { "graph": { "meaning": "", "description": "" } },
+    "words": {
+      "graph": { "meaning": "", "description": "" },
+      "graphy": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "draw, write",
     "description": ""
   },
@@ -2878,6 +3090,8 @@
   {
     "words": {
       "gyn": { "meaning": "", "description": "" },
+      "gyno": { "meaning": "", "description": "" },
+      "gyne": { "meaning": "", "description": "" },
       "gynaec": { "meaning": "", "description": "" }
     },
     "sameMeaning": "woman",
@@ -2910,8 +3124,19 @@
   },
   {
     "words": {
+      "hacto": { "meaning": "", "description": "" },
+      "hect": { "meaning": "", "description": "" },
+      "hecat": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "handred",
+    "description": ""
+  },
+  {
+    "words": {
       "haem": { "meaning": "", "description": "" },
-      "hem": { "meaning": "", "description": "" }
+      "hem": { "meaning": "", "description": "" },
+      "hemo": { "meaning": "", "description": "" },
+      "hema": { "meaning": "", "description": "" }
     },
     "sameMeaning": "blood",
     "description": ""
@@ -2963,12 +3188,18 @@
     "description": ""
   },
   {
-    "words": { "heli": { "meaning": "", "description": "" } },
+    "words": {
+      "heli": { "meaning": "", "description": "" },
+      "helio": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "sun",
     "description": ""
   },
   {
-    "words": { "helic": { "meaning": "", "description": "" } },
+    "words": {
+      "helic": { "meaning": "", "description": "" },
+      "helico": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "something twisted or spiral",
     "description": ""
   },
@@ -3003,7 +3234,10 @@
     "description": ""
   },
   {
-    "words": { "hepat": { "meaning": "", "description": "" } },
+    "words": {
+      "hepa": { "meaning": "", "description": "" },
+      "hepat": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "liver",
     "description": ""
   },
@@ -3034,8 +3268,11 @@
     "description": ""
   },
   {
-    "words": { "herb": { "meaning": "", "description": "" } },
-    "sameMeaning": "grass",
+    "words": {
+      "herb": { "meaning": "", "description": "" },
+      "herbi": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "grass, plant",
     "description": ""
   },
   {
@@ -3067,7 +3304,10 @@
     "description": ""
   },
   {
-    "words": { "heter": { "meaning": "", "description": "" } },
+    "words": {
+      "heter": { "meaning": "", "description": "" },
+      "hetero": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "different, other",
     "description": ""
   },
@@ -3077,7 +3317,10 @@
     "description": ""
   },
   {
-    "words": { "hex": { "meaning": "", "description": "" } },
+    "words": {
+      "hex": { "meaning": "", "description": "" },
+      "hexa": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "six",
     "description": ""
   },
@@ -3122,6 +3365,11 @@
     "description": ""
   },
   {
+    "words": { "histo": { "meaning": "", "description": "" } },
+    "sameMeaning": "tissue",
+    "description": ""
+  },
+  {
     "words": { "histri": { "meaning": "", "description": "" } },
     "sameMeaning": "actor",
     "description": ""
@@ -3153,8 +3401,8 @@
   },
   {
     "words": {
-      "homoe": { "meaning": "", "description": "" },
-      "home": { "meaning": "", "description": "" }
+      "home": { "meaning": "", "description": "" },
+      "homeo": { "meaning": "", "description": "" }
     },
     "sameMeaning": "like, similar",
     "description": ""
@@ -3210,7 +3458,10 @@
     "description": ""
   },
   {
-    "words": { "hydr": { "meaning": "", "description": "" } },
+    "words": {
+      "hydr": { "meaning": "", "description": "" },
+      "hydro": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "water",
     "description": ""
   },
@@ -3220,7 +3471,10 @@
     "description": ""
   },
   {
-    "words": { "hygr": { "meaning": "", "description": "" } },
+    "words": {
+      "hygr": { "meaning": "", "description": "" },
+      "hygro": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "wet",
     "description": ""
   },
@@ -3278,13 +3532,24 @@
     "description": ""
   },
   {
-    "words": { "iatr": { "meaning": "", "description": "" } },
+    "words": {
+      "iatr": { "meaning": "", "description": "" },
+      "iatro": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "heal",
     "description": ""
   },
   {
     "words": { "ichthy": { "meaning": "", "description": "" } },
     "sameMeaning": "fish",
+    "description": ""
+  },
+  {
+    "words": {
+      "icon": { "meaning": "", "description": "" },
+      "icono": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "image",
     "description": ""
   },
   {
@@ -3308,8 +3573,11 @@
     "description": ""
   },
   {
-    "words": { "idi": { "meaning": "", "description": "" } },
-    "sameMeaning": "own, peculiarity",
+    "words": {
+      "idi": { "meaning": "", "description": "" },
+      "idio": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "own, peculiarity, persoal, distinct",
     "description": ""
   },
   {
@@ -3323,8 +3591,17 @@
     "description": ""
   },
   {
-    "words": { "imagin": { "meaning": "", "description": "" } },
-    "sameMeaning": "copy",
+    "words": {
+      "imag": {
+        "meaning": "image, likeness, or representation",
+        "description": ""
+      },
+      "imagin": {
+        "meaning": "the ability to create or form images in the mind",
+        "description": ""
+      }
+    },
+    "sameMeaning": "idea of images",
     "description": ""
   },
   {
@@ -3349,6 +3626,7 @@
   {
     "words": {
       "in": { "meaning": "", "description": "" },
+      "ig": { "meaning": "", "description": "" },
       "il": { "meaning": "", "description": "" },
       "im": { "meaning": "", "description": "" },
       "ir": { "meaning": "", "description": "" }
@@ -3382,7 +3660,10 @@
     "description": ""
   },
   {
-    "words": { "intra": { "meaning": "", "description": "" } },
+    "words": {
+      "intra": { "meaning": "", "description": "" },
+      "intro": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "inside , within",
     "description": ""
   },
@@ -3446,8 +3727,11 @@
     "description": ""
   },
   {
-    "words": { "judic": { "meaning": "", "description": "" } },
-    "sameMeaning": "judge",
+    "words": {
+      "jud": { "meaning": "", "description": "" },
+      "judic": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "judge, law",
     "description": ""
   },
   {
@@ -3512,6 +3796,8 @@
   {
     "words": {
       "kine": { "meaning": "", "description": "" },
+      "kinet": { "meaning": "", "description": "" },
+      "kinemat": { "meaning": "", "description": "" },
       "cine": { "meaning": "", "description": "" }
     },
     "sameMeaning": "movement, motion",
@@ -3569,7 +3855,10 @@
     "description": ""
   },
   {
-    "words": { "lact": { "meaning": "", "description": "" } },
+    "words": {
+      "lact": { "meaning": "", "description": "" },
+      "lacto": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "milk",
     "description": ""
   },
@@ -3692,7 +3981,9 @@
   {
     "words": {
       "leuc": { "meaning": "", "description": "" },
-      "leuk": { "meaning": "", "description": "" }
+      "leuco": { "meaning": "", "description": "" },
+      "leuk": { "meaning": "", "description": "" },
+      "leuko": { "meaning": "", "description": "" }
     },
     "sameMeaning": "white",
     "description": ""
@@ -3700,6 +3991,11 @@
   {
     "words": { "lev": { "meaning": "", "description": "" } },
     "sameMeaning": "lift, light, raise",
+    "description": ""
+  },
+  {
+    "words": { "lex": { "meaning": "", "description": "" } },
+    "sameMeaning": "word, law, reading",
     "description": ""
   },
   {
@@ -3746,7 +4042,10 @@
     "description": ""
   },
   {
-    "words": { "lip": { "meaning": "", "description": "" } },
+    "words": {
+      "lip": { "meaning": "", "description": "" },
+      "lipo": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "fat",
     "description": ""
   },
@@ -3766,8 +4065,13 @@
     "description": ""
   },
   {
-    "words": { "lith": { "meaning": "", "description": "" } },
-    "sameMeaning": "stone",
+    "words": {
+      "lite": { "meaning": "", "description": "" },
+      "lith": { "meaning": "", "description": "" },
+      "litho": { "meaning": "", "description": "" },
+      "ite": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "stone, mineral, rock, fossil",
     "description": ""
   },
   {
@@ -3778,6 +4082,7 @@
   {
     "words": {
       "log": { "meaning": "", "description": "" },
+      "logo": { "meaning": "", "description": "" },
       "logy": { "meaning": "", "description": "" }
     },
     "sameMeaning": "word, reason, speech, thought",
@@ -3791,6 +4096,7 @@
   {
     "words": {
       "loqu": { "meaning": "", "description": "" },
+      "locu": { "meaning": "", "description": "" },
       "locut": { "meaning": "", "description": "" }
     },
     "sameMeaning": "speak",
@@ -3824,7 +4130,11 @@
     "description": ""
   },
   {
-    "words": { "lun": { "meaning": "", "description": "" } },
+    "words": {
+      "lun": { "meaning": "", "description": "" },
+      "luna": { "meaning": "", "description": "" },
+      "luni": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "moon",
     "description": ""
   },
@@ -3853,12 +4163,19 @@
     "description": ""
   },
   {
-    "words": { "macr": { "meaning": "", "description": "" } },
-    "sameMeaning": "long",
+    "words": {
+      "macr": { "meaning": "", "description": "" },
+      "macro": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "long, large, great",
     "description": ""
   },
   {
-    "words": { "magn": { "meaning": "", "description": "" } },
+    "words": {
+      "magn": { "meaning": "", "description": "" },
+      "magna": { "meaning": "", "description": "" },
+      "magni": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "great, large",
     "description": ""
   },
@@ -3873,8 +4190,11 @@
     "description": ""
   },
   {
-    "words": { "mal": { "meaning": "", "description": "" } },
-    "sameMeaning": "bad, wretched",
+    "words": {
+      "mal": { "meaning": "", "description": "" },
+      "male": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "bad, wretched, ill",
     "description": ""
   },
   {
@@ -3885,9 +4205,10 @@
   {
     "words": {
       "man": { "meaning": "", "description": "" },
+      "mania": { "meaning": "", "description": "" },
       "mant": { "meaning": "", "description": "" }
     },
-    "sameMeaning": "crazy",
+    "sameMeaning": "crazy, insantity, excessive desire",
     "description": ""
   },
   {
@@ -3898,6 +4219,7 @@
   {
     "words": {
       "man": { "meaning": "", "description": "" },
+      "mani": { "meaning": "", "description": "" },
       "manu": { "meaning": "", "description": "" }
     },
     "sameMeaning": "hand",
@@ -3912,7 +4234,10 @@
     "description": ""
   },
   {
-    "words": { "mar": { "meaning": "", "description": "" } },
+    "words": {
+      "mar": { "meaning": "", "description": "" },
+      "mari": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "sea",
     "description": ""
   },
@@ -3924,13 +4249,17 @@
   {
     "words": {
       "mater": { "meaning": "", "description": "" },
-      "matr": { "meaning": "", "description": "" }
+      "matr": { "meaning": "", "description": "" },
+      "matri": { "meaning": "", "description": "" }
     },
     "sameMeaning": "mother",
     "description": ""
   },
   {
-    "words": { "maxim": { "meaning": "", "description": "" } },
+    "words": {
+      "max": { "meaning": "", "description": "" },
+      "maxim": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "greatest",
     "description": ""
   },
@@ -3941,8 +4270,8 @@
   },
   {
     "words": {
-      "medi": { "meaning": "", "description": "" },
-      "midi": { "meaning": "", "description": "" }
+      "med": { "meaning": "", "description": "" },
+      "medi": { "meaning": "", "description": "" }
     },
     "sameMeaning": "middle",
     "description": ""
@@ -3950,6 +4279,7 @@
   {
     "words": {
       "meg": { "meaning": "", "description": "" },
+      "mega": { "meaning": "", "description": "" },
       "megal": { "meaning": "", "description": "" }
     },
     "sameMeaning": "great, large",
@@ -3961,7 +4291,10 @@
     "description": ""
   },
   {
-    "words": { "melan": { "meaning": "", "description": "" } },
+    "words": {
+      "melan": { "meaning": "", "description": "" },
+      "melano": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "dark",
     "description": ""
   },
@@ -3981,7 +4314,10 @@
     "description": ""
   },
   {
-    "words": { "memor": { "meaning": "", "description": "" } },
+    "words": {
+      "memor": { "meaning": "", "description": "" },
+      "memori": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "remember",
     "description": ""
   },
@@ -4034,7 +4370,10 @@
     "description": ""
   },
   {
-    "words": { "mes": { "meaning": "", "description": "" } },
+    "words": {
+      "mes": { "meaning": "", "description": "" },
+      "meso": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "middle",
     "description": ""
   },
@@ -4054,7 +4393,8 @@
   {
     "words": {
       "meter": { "meaning": "", "description": "" },
-      "metr": { "meaning": "", "description": "" }
+      "metr": { "meaning": "", "description": "" },
+      "metry": { "meaning": "", "description": "" }
     },
     "sameMeaning": "measure",
     "description": ""
@@ -4070,7 +4410,10 @@
     "description": ""
   },
   {
-    "words": { "micr": { "meaning": "", "description": "" } },
+    "words": {
+      "micr": { "meaning": "", "description": "" },
+      "micro": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "small",
     "description": ""
   },
@@ -4085,7 +4428,10 @@
     "description": ""
   },
   {
-    "words": { "mill": { "meaning": "", "description": "" } },
+    "words": {
+      "mill": { "meaning": "", "description": "" },
+      "milli": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "thousand",
     "description": ""
   },
@@ -4100,7 +4446,10 @@
     "description": ""
   },
   {
-    "words": { "min": { "meaning": "", "description": "" } },
+    "words": {
+      "min": { "meaning": "", "description": "" },
+      "mini": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "jut, less, smaller",
     "description": ""
   },
@@ -4120,7 +4469,10 @@
     "description": ""
   },
   {
-    "words": { "mis": { "meaning": "", "description": "" } },
+    "words": {
+      "mis": { "meaning": "", "description": "" },
+      "miso": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "hate",
     "description": ""
   },
@@ -4176,7 +4528,10 @@
     "description": ""
   },
   {
-    "words": { "mon": { "meaning": "", "description": "" } },
+    "words": {
+      "mon": { "meaning": "", "description": "" },
+      "mono": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "alone, only, warn",
     "description": ""
   },
@@ -4206,7 +4561,10 @@
     "description": ""
   },
   {
-    "words": { "morph": { "meaning": "", "description": "" } },
+    "words": {
+      "morph": { "meaning": "", "description": "" },
+      "morpho": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "form, shape",
     "description": ""
   },
@@ -4219,7 +4577,8 @@
     "words": {
       "mov": { "meaning": "", "description": "" },
       "mot": { "meaning": "", "description": "" },
-      "mut": { "meaning": "", "description": "" }
+      "mut": { "meaning": "", "description": "" },
+      "mub": { "meaning": "", "description": "" }
     },
     "sameMeaning": "move, motion",
     "description": ""
@@ -4263,7 +4622,10 @@
     "description": ""
   },
   {
-    "words": { "my": { "meaning": "", "description": "" } },
+    "words": {
+      "my": { "meaning": "", "description": "" },
+      "myo": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "mouse, shut",
     "description": ""
   },
@@ -4387,7 +4749,10 @@
     "description": ""
   },
   {
-    "words": { "necr": { "meaning": "", "description": "" } },
+    "words": {
+      "necr": { "meaning": "", "description": "" },
+      "necro": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "dead",
     "description": ""
   },
@@ -4428,7 +4793,10 @@
     "description": ""
   },
   {
-    "words": { "nephr": { "meaning": "", "description": "" } },
+    "words": {
+      "nephr": { "meaning": "", "description": "" },
+      "nephro": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "kidney",
     "description": ""
   },
@@ -4443,7 +4811,10 @@
     "description": ""
   },
   {
-    "words": { "neur": { "meaning": "", "description": "" } },
+    "words": {
+      "neur": { "meaning": "", "description": "" },
+      "neuro": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "sinew",
     "description": ""
   },
@@ -4483,7 +4854,10 @@
     "description": ""
   },
   {
-    "words": { "nom": { "meaning": "", "description": "" } },
+    "words": {
+      "nom": { "meaning": "", "description": "" },
+      "nomin": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "arrangement, law, order",
     "description": ""
   },
@@ -4528,6 +4902,14 @@
   {
     "words": { "noth": { "meaning": "", "description": "" } },
     "sameMeaning": "spurious",
+    "description": ""
+  },
+  {
+    "words": {
+      "noun": { "meaning": "", "description": "" },
+      "nunc": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "declare",
     "description": ""
   },
   {
@@ -4652,7 +5034,11 @@
     "description": ""
   },
   {
-    "words": { "oct": { "meaning": "", "description": "" } },
+    "words": {
+      "oct": { "meaning": "", "description": "" },
+      "octa": { "meaning": "", "description": "" },
+      "octo": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "eight",
     "description": ""
   },
@@ -4677,7 +5063,10 @@
     "description": ""
   },
   {
-    "words": { "ocul": { "meaning": "", "description": "" } },
+    "words": {
+      "ocu": { "meaning": "", "description": "" },
+      "ocul": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "eye",
     "description": ""
   },
@@ -4891,6 +5280,7 @@
   },
   {
     "words": {
+      "op": { "meaning": "", "description": "" },
       "ops": { "meaning": "", "description": "" },
       "opt": { "meaning": "", "description": "" }
     },
@@ -4913,7 +5303,10 @@
     "description": ""
   },
   {
-    "words": { "optim": { "meaning": "", "description": "" } },
+    "words": {
+      "opt": { "meaning": "", "description": "" },
+      "optim": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "best",
     "description": ""
   },
@@ -4994,7 +5387,10 @@
     "description": ""
   },
   {
-    "words": { "orth": { "meaning": "", "description": "" } },
+    "words": {
+      "orth": { "meaning": "", "description": "" },
+      "ortho": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "straight",
     "description": ""
   },
@@ -5019,7 +5415,10 @@
     "description": ""
   },
   {
-    "words": { "oste": { "meaning": "", "description": "" } },
+    "words": {
+      "oste": { "meaning": "", "description": "" },
+      "osteo": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "bone",
     "description": ""
   },
@@ -5044,8 +5443,18 @@
     "description": ""
   },
   {
+    "words": { "out": { "meaning": "", "description": "" } },
+    "sameMeaning": "goes beyond, surpasses, exceeds",
+    "description": ""
+  },
+  {
     "words": { "ov": { "meaning": "", "description": "" } },
     "sameMeaning": "egg",
+    "description": ""
+  },
+  {
+    "words": { "over": { "meaning": "", "description": "" } },
+    "sameMeaning": "excessive",
     "description": ""
   },
   {
@@ -5054,7 +5463,10 @@
     "description": ""
   },
   {
-    "words": { "oxy": { "meaning": "", "description": "" } },
+    "words": {
+      "oxi": { "meaning": "", "description": "" },
+      "oxy": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "sharp, pointed",
     "description": ""
   },
@@ -5103,8 +5515,9 @@
   },
   {
     "words": {
+      "pale": { "meaning": "", "description": "" },
       "palae": { "meaning": "", "description": "" },
-      "pale": { "meaning": "", "description": "" }
+      "palao": { "meaning": "", "description": "" }
     },
     "sameMeaning": "ancient, old",
     "description": ""
@@ -5234,8 +5647,9 @@
   },
   {
     "words": {
+      "patr": { "meaning": "", "description": "" },
       "pater": { "meaning": "", "description": "" },
-      "patr": { "meaning": "", "description": "" }
+      "patri": { "meaning": "", "description": "" }
     },
     "sameMeaning": "father",
     "description": ""
@@ -5279,7 +5693,11 @@
     "description": ""
   },
   {
-    "words": { "ped": { "meaning": "", "description": "" } },
+    "words": {
+      "ped": { "meaning": "", "description": "" },
+      "pedi": { "meaning": "", "description": "" },
+      "pede": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "foot",
     "description": ""
   },
@@ -5363,7 +5781,10 @@
     "description": ""
   },
   {
-    "words": { "pent": { "meaning": "", "description": "" } },
+    "words": {
+      "pent": { "meaning": "", "description": "" },
+      "penta": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "five",
     "description": ""
   },
@@ -5393,7 +5814,10 @@
     "description": ""
   },
   {
-    "words": { "pept": { "meaning": "", "description": "" } },
+    "words": {
+      "pept": { "meaning": "", "description": "" },
+      "peps": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "digest",
     "description": ""
   },
@@ -5454,7 +5878,10 @@
     "description": ""
   },
   {
-    "words": { "phag": { "meaning": "", "description": "" } },
+    "words": {
+      "phag": { "meaning": "", "description": "" },
+      "phage": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "eat",
     "description": ""
   },
@@ -5508,7 +5935,8 @@
   {
     "words": {
       "phil": { "meaning": "", "description": "" },
-      "phile": { "meaning": "", "description": "" }
+      "phile": { "meaning": "", "description": "" },
+      "philo": { "meaning": "", "description": "" }
     },
     "sameMeaning": "love, friendship",
     "description": ""
@@ -5537,14 +5965,20 @@
     "description": ""
   },
   {
-    "words": { "phon": { "meaning": "", "description": "" } },
+    "words": {
+      "phon": { "meaning": "", "description": "" },
+      "phane": { "meaning": "", "description": "" },
+      "phano": { "meaning": "", "description": "" },
+      "phany": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "sound",
     "description": ""
   },
   {
     "words": {
       "phos": { "meaning": "", "description": "" },
-      "phot": { "meaning": "", "description": "" }
+      "phot": { "meaning": "", "description": "" },
+      "photo": { "meaning": "", "description": "" }
     },
     "sameMeaning": "light",
     "description": ""
@@ -5583,7 +6017,10 @@
     "description": ""
   },
   {
-    "words": { "phyll": { "meaning": "", "description": "" } },
+    "words": {
+      "phyll": { "meaning": "", "description": "" },
+      "phyllo": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "leaf",
     "description": ""
   },
@@ -5603,8 +6040,12 @@
     "description": ""
   },
   {
-    "words": { "phyt": { "meaning": "", "description": "" } },
-    "sameMeaning": "plant",
+    "words": {
+      "phyt": { "meaning": "", "description": "" },
+      "phyte": { "meaning": "", "description": "" },
+      "phyto": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "plant, to grow",
     "description": ""
   },
   {
@@ -5697,7 +6138,11 @@
     "description": ""
   },
   {
-    "words": { "plas": { "meaning": "", "description": "" } },
+    "words": {
+      "plas": { "meaning": "", "description": "" },
+      "plast": { "meaning": "", "description": "" },
+      "plasm": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "mould",
     "description": ""
   },
@@ -5819,7 +6264,11 @@
     "description": ""
   },
   {
-    "words": { "pne": { "meaning": "", "description": "" } },
+    "words": {
+      "pne": { "meaning": "", "description": "" },
+      "pneum": { "meaning": "", "description": "" },
+      "pneumo": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "blow, breathe, lung",
     "description": ""
   },
@@ -5840,7 +6289,10 @@
     "description": ""
   },
   {
-    "words": { "pod": { "meaning": "", "description": "" } },
+    "words": {
+      "pod": { "meaning": "", "description": "" },
+      "pode": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "foot",
     "description": ""
   },
@@ -5916,7 +6368,10 @@
     "description": ""
   },
   {
-    "words": { "popul": { "meaning": "", "description": "" } },
+    "words": {
+      "pop": { "meaning": "", "description": "" },
+      "popul": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "people",
     "description": ""
   },
@@ -5948,6 +6403,11 @@
   {
     "words": { "portion": { "meaning": "", "description": "" } },
     "sameMeaning": "part, share",
+    "description": ""
+  },
+  {
+    "words": { "pos": { "meaning": "", "description": "" } },
+    "sameMeaning": "place, put",
     "description": ""
   },
   {
@@ -6099,7 +6559,10 @@
     "description": ""
   },
   {
-    "words": { "prot": { "meaning": "", "description": "" } },
+    "words": {
+      "prot": { "meaning": "", "description": "" },
+      "proto": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "first",
     "description": ""
   },
@@ -6144,7 +6607,10 @@
     "description": ""
   },
   {
-    "words": { "pseud": { "meaning": "", "description": "" } },
+    "words": {
+      "pseud": { "meaning": "", "description": "" },
+      "pseudo": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "false",
     "description": ""
   },
@@ -6174,7 +6640,10 @@
     "description": ""
   },
   {
-    "words": { "psych": { "meaning": "", "description": "" } },
+    "words": {
+      "psych": { "meaning": "", "description": "" },
+      "psycho": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "mind",
     "description": ""
   },
@@ -6231,9 +6700,16 @@
   {
     "words": {
       "pug": { "meaning": "", "description": "" },
-      "pugn": { "meaning": "", "description": "" }
+      "pugn": { "meaning": "", "description": "" },
+      "pugna": { "meaning": "", "description": "" },
+      "pung": { "meaning": "", "description": "" }
     },
     "sameMeaning": "fight",
+    "description": ""
+  },
+  {
+    "words": { "pul": { "meaning": "", "description": "" } },
+    "sameMeaning": "urge",
     "description": ""
   },
   {
@@ -6305,7 +6781,10 @@
     "description": ""
   },
   {
-    "words": { "pyr": { "meaning": "", "description": "" } },
+    "words": {
+      "pyr": { "meaning": "", "description": "" },
+      "pyro": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "fire",
     "description": ""
   },
@@ -6320,7 +6799,11 @@
     "description": ""
   },
   {
-    "words": { "quadr": { "meaning": "", "description": "" } },
+    "words": {
+      "quad": { "meaning": "", "description": "" },
+      "quadr": { "meaning": "", "description": "" },
+      "quadri": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "four",
     "description": ""
   },
@@ -6375,7 +6858,10 @@
     "description": ""
   },
   {
-    "words": { "quin": { "meaning": "", "description": "" } },
+    "words": {
+      "quin": { "meaning": "", "description": "" },
+      "quint": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "five each",
     "description": ""
   },
@@ -6418,12 +6904,23 @@
     "description": ""
   },
   {
-    "words": { "radic": { "meaning": "", "description": "" } },
+    "words": {
+      "radic": { "meaning": "", "description": "" },
+      "radix": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "root",
     "description": ""
   },
   {
-    "words": { "ram": { "meaning": "", "description": "" } },
+    "words": { "radio": { "meaning": "", "description": "" } },
+    "sameMeaning": "radiation, ray",
+    "description": ""
+  },
+  {
+    "words": {
+      "ram": { "meaning": "", "description": "" },
+      "rami": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "branch",
     "description": ""
   },
@@ -6557,7 +7054,10 @@
     "description": ""
   },
   {
-    "words": { "rhin": { "meaning": "", "description": "" } },
+    "words": {
+      "rhin": { "meaning": "", "description": "" },
+      "rhino": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "snout",
     "description": ""
   },
@@ -6572,8 +7072,11 @@
     "description": ""
   },
   {
-    "words": { "rhod": { "meaning": "", "description": "" } },
-    "sameMeaning": "rose",
+    "words": {
+      "rhod": { "meaning": "", "description": "" },
+      "rhodo": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "rose, red",
     "description": ""
   },
   {
@@ -6624,6 +7127,7 @@
   },
   {
     "words": {
+      "rub": { "meaning": "", "description": "" },
       "ruber": { "meaning": "", "description": "" },
       "rubr": { "meaning": "", "description": "" }
     },
@@ -6655,6 +7159,16 @@
   },
   {
     "words": { "rur": { "meaning": "", "description": "" } },
+    "sameMeaning": "countryside, farm",
+    "description": ""
+  },
+  {
+    "words": {
+      "rrh": { "meaning": "", "description": "" },
+      "rrhea": { "meaning": "", "description": "" },
+      "rrhoea": { "meaning": "", "description": "" },
+      "rrhag": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "countryside, farm",
     "description": ""
   },
@@ -6841,7 +7355,9 @@
   {
     "words": {
       "scept": { "meaning": "", "description": "" },
-      "scop": { "meaning": "", "description": "" }
+      "scop": { "meaning": "", "description": "" },
+      "scope": { "meaning": "", "description": "" },
+      "scopy": { "meaning": "", "description": "" }
     },
     "sameMeaning": "look at, examine, view, observe",
     "description": ""
@@ -6875,7 +7391,10 @@
     "description": ""
   },
   {
-    "words": { "scler": { "meaning": "", "description": "" } },
+    "words": {
+      "scler": { "meaning": "", "description": "" },
+      "sclero": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "hard",
     "description": ""
   },
@@ -6984,6 +7503,11 @@
     "description": ""
   },
   {
+    "words": { "self": { "meaning": "", "description": "" } },
+    "sameMeaning": "of, for, or by itself",
+    "description": ""
+  },
+  {
     "words": { "sell": { "meaning": "", "description": "" } },
     "sameMeaning": "saddle, seat",
     "description": ""
@@ -7017,7 +7541,10 @@
     "description": ""
   },
   {
-    "words": { "sept": { "meaning": "", "description": "" } },
+    "words": {
+      "sept": { "meaning": "", "description": "" },
+      "septi": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "fence, partition, enclosure, seven",
     "description": ""
   },
@@ -7272,7 +7799,10 @@
     "description": ""
   },
   {
-    "words": { "somn": { "meaning": "", "description": "" } },
+    "words": {
+      "somn": { "meaning": "", "description": "" },
+      "somni": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "sleep",
     "description": ""
   },
@@ -7400,7 +7930,10 @@
     "description": ""
   },
   {
-    "words": { "spher": { "meaning": "", "description": "" } },
+    "words": {
+      "spher": { "meaning": "", "description": "" },
+      "sphere": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "ball",
     "description": ""
   },
@@ -7496,6 +8029,11 @@
   {
     "words": { "st": { "meaning": "", "description": "" } },
     "sameMeaning": "cause to stand, stand",
+    "description": ""
+  },
+  {
+    "words": { "sta": { "meaning": "", "description": "" } },
+    "sameMeaning": "stand",
     "description": ""
   },
   {
@@ -7893,6 +8431,14 @@
     "description": ""
   },
   {
+    "words": {
+      "tax": { "meaning": "", "description": "" },
+      "taxo": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "arrangement",
+    "description": ""
+  },
+  {
     "words": { "tec": { "meaning": "", "description": "" } },
     "sameMeaning": "melt",
     "description": ""
@@ -7906,7 +8452,10 @@
     "description": ""
   },
   {
-    "words": { "techn": { "meaning": "", "description": "" } },
+    "words": {
+      "techn": { "meaning": "", "description": "" },
+      "techno": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "art, skill",
     "description": ""
   },
@@ -7924,7 +8473,11 @@
     "description": ""
   },
   {
-    "words": { "tele": { "meaning": "", "description": "" } },
+    "words": {
+      "tel": { "meaning": "", "description": "" },
+      "tele": { "meaning": "", "description": "" },
+      "telo": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "far, end, complete",
     "description": ""
   },
@@ -7945,7 +8498,10 @@
     "description": ""
   },
   {
-    "words": { "tempor": { "meaning": "", "description": "" } },
+    "words": {
+      "temp": { "meaning": "", "description": "" },
+      "tempor": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "time",
     "description": ""
   },
@@ -8013,7 +8569,11 @@
     "description": ""
   },
   {
-    "words": { "termin": { "meaning": "", "description": "" } },
+    "words": {
+      "term": { "meaning": "", "description": "" },
+      "termin": { "meaning": "", "description": "" },
+      "termina": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "boundary, limit, end",
     "description": ""
   },
@@ -8023,7 +8583,11 @@
     "description": ""
   },
   {
-    "words": { "terr": { "meaning": "", "description": "" } },
+    "words": {
+      "terr": { "meaning": "", "description": "" },
+      "terra": { "meaning": "", "description": "" },
+      "terri": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "earth",
     "description": ""
   },
@@ -8043,7 +8607,10 @@
     "description": ""
   },
   {
-    "words": { "tetr": { "meaning": "", "description": "" } },
+    "words": {
+      "tetr": { "meaning": "", "description": "" },
+      "tetra": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "four",
     "description": ""
   },
@@ -8083,6 +8650,7 @@
   {
     "words": {
       "the": { "meaning": "", "description": "" },
+      "theo": { "meaning": "", "description": "" },
       "thus": { "meaning": "", "description": "" }
     },
     "sameMeaning": "god",
@@ -8119,7 +8687,10 @@
     "description": ""
   },
   {
-    "words": { "therm": { "meaning": "", "description": "" } },
+    "words": {
+      "therm": { "meaning": "", "description": "" },
+      "thermo": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "heat, warm",
     "description": ""
   },
@@ -8466,7 +9037,12 @@
   },
   {
     "words": { "un": { "meaning": "", "description": "" } },
-    "sameMeaning": "one",
+    "sameMeaning": "not, opposite of, lacking",
+    "description": ""
+  },
+  {
+    "words": { "uni": { "meaning": "", "description": "" } },
+    "sameMeaning": "one, single",
     "description": ""
   },
   {
@@ -8622,7 +9198,10 @@
     "description": ""
   },
   {
-    "words": { "ven": { "meaning": "", "description": "" } },
+    "words": {
+      "ven": { "meaning": "", "description": "" },
+      "vent": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "vein, poison, hunt",
     "description": ""
   },
@@ -8655,7 +9234,10 @@
     "description": ""
   },
   {
-    "words": { "ver": { "meaning": "", "description": "" } },
+    "words": {
+      "ver": { "meaning": "", "description": "" },
+      "veri": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "true",
     "description": ""
   },
@@ -8728,6 +9310,11 @@
     "description": ""
   },
   {
+    "words": { "vice": { "meaning": "", "description": "" } },
+    "sameMeaning": "acting in place of, next in rank",
+    "description": ""
+  },
+  {
     "words": {
       "vicen": { "meaning": "", "description": "" },
       "vigen": { "meaning": "", "description": "" }
@@ -8779,6 +9366,8 @@
   {
     "words": {
       "vinc": { "meaning": "", "description": "" },
+      "vince": { "meaning": "", "description": "" },
+      "vic": { "meaning": "", "description": "" },
       "vict": { "meaning": "", "description": "" }
     },
     "sameMeaning": "conquer",
@@ -8830,7 +9419,11 @@
     "description": ""
   },
   {
-    "words": { "viv": { "meaning": "", "description": "" } },
+    "words": {
+      "viv": { "meaning": "", "description": "" },
+      "vivi": { "meaning": "", "description": "" },
+      "vit": { "meaning": "", "description": "" }
+    },
     "sameMeaning": "live",
     "description": ""
   },
@@ -8843,8 +9436,12 @@
     "description": ""
   },
   {
-    "words": { "vol": { "meaning": "", "description": "" } },
-    "sameMeaning": "fly, will",
+    "words": {
+      "vol": { "meaning": "", "description": "" },
+      "voli": { "meaning": "", "description": "" },
+      "volu": { "meaning": "", "description": "" }
+    },
+    "sameMeaning": "wish, will",
     "description": ""
   },
   {
@@ -8863,9 +9460,10 @@
   {
     "words": {
       "vor": { "meaning": "", "description": "" },
+      "vour": { "meaning": "", "description": "" },
       "vorac": { "meaning": "", "description": "" }
     },
-    "sameMeaning": "swallow",
+    "sameMeaning": "swallow, eat",
     "description": ""
   },
   {
