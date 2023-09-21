@@ -100,7 +100,7 @@ onMounted(() => {
         <div v-for="vv of v" :key="nanoid()" :data-teleport="vv['id']"
           :class="['rounded flex items-center relative mr-2', dataTeleport === vv['id'] ? 'bg-slate-200 dark:bg-slate-700' : '']">
           <input type="checkbox" :name="vv['id']" :value="vv['id']" v-model="related" :disabled="search.length !== 0" />
-          <i @click="dataTeleport = vv['id']"
+          <i @click.stop.capture="dataTeleport = vv['id']"
             class="icon-[icon-park-solid--view-grid-detail] text-slate-500 cursor-pointer" />
           <i>{{ Object.keys(vv.words).join(',') }}</i>
         </div>
@@ -133,13 +133,12 @@ onMounted(() => {
       <table class="!m-0">
         <thead>
           <tr class="!bg-transparent">
-            <th class="!p-0 whitespace-nowrap !text-xs !font-light">suffix</th>
-            <th class="!p-0 whitespace-nowrap !text-xs !font-light">meaning</th>
-            <th class="!p-0 whitespace-nowrap !text-xs !font-light">descriptions</th>
+            <th class="!p-0 whitespace-nowrap !text-xs !font-light" v-for="v of ['suffix', 'meaning', 'descriptions']"
+              :key="nanoid()">{{ v }}</th>
           </tr>
         </thead>
         <tbody>
-          <tr class="!bg-transparent" v-for="(v, k) of detailed" :key="nanoid()">
+          <tr class="!bg-transparent" v-for="(v, k) of detailed.words" :key="nanoid()">
             <td class="!p-0 font-bold">{{ k }}</td>
             <td class="!p-0 min-w-[200px]">{{ v?.meaning }}</td>
             <td class="!p-0 min-w-[200px]">
