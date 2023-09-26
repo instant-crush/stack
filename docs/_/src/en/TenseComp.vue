@@ -1,6 +1,6 @@
 <script setup lang='ts'>
 import { nanoid } from 'nanoid'
-import { ref } from 'vue'
+import { computed, ref, watch } from 'vue'
 
 const detailsOpend = ref(false)
 const heads = ref([
@@ -231,8 +231,81 @@ const data = ref({
     ],
   ],
 })
+const colors = ref<{ r: number, g: number, b: number, a: number }[]>([
+  { r: 255, g: 255, b: 255, a: 1 },
+  { r: 255, g: 0, b: 0, a: 1 },
+  { r: 0, g: 255, b: 0, a: 1 },
+  { r: 0, g: 0, b: 255, a: 1 },
+  { r: 255, g: 255, b: 0, a: 1 },
+  { r: 0, g: 255, b: 255, a: 1 },
+  { r: 255, g: 0, b: 255, a: 1 },
+  { r: 0, g: 0, b: 0, a: 1 }
+])
+const colorsSelected = ref<{ r: number, g: number, b: number, a: number }[]>([])
+const colorsAdd = () => colors.value.push({
+  r: Math.floor((Math.random() * 256)),
+  g: Math.floor((Math.random() * 256)),
+  b: Math.floor((Math.random() * 256)),
+  a: +Math.random().toFixed(2),
+})
+const proportions = ref<number[]>([])
+watch(colorsSelected, v => {
+  proportions.value.length = v.length
+  proportions.value.fill(1 / v.length)
+})
+const colorGen = computed(() => {
+  const colorNew = {
+    r: 0,
+    g: 0,
+    b: 0,
+    a: 0,
+  }
+  for (let i = 0; i < colorsSelected.value.length; i++) {
+    colorNew.r += colorsSelected.value[i].r * proportions.value[i]
+    colorNew.g += colorsSelected.value[i].g * proportions.value[i]
+    colorNew.b += colorsSelected.value[i].b * proportions.value[i]
+    colorNew.a += colorsSelected.value[i].a * proportions.value[i]
+  }
+  return `rgba(${colorNew.r.toFixed(0)}, ${colorNew.g.toFixed(0)}, ${colorNew.b.toFixed(0)}, ${colorNew.a})`
+})
+const proportionChange = (v: number, index: number) => {
+  proportions.value.forEach((_, k, a) => {
+    if (index !== k) {
+      a[k] = (1 - v) / (a.length - 1)
+    }
+  })
+}
 </script>
 <template>
+  <details open>
+    <summary>operations & result</summary>
+    <button @click="colorsAdd">colors add</button>
+    <div>
+      <div class="w-20 h-8 rounded" :style="{ backgroundColor: colorGen }" />
+      <span>{{ colorGen }}</span>
+    </div>
+  </details>
+  <details open>
+    <summary>colors selected</summary>
+    <div class="flex flex-col">
+      <div class="flex items-center" v-for="(v, k) of colorsSelected">
+        <div class="mx-2 w-8 h-4 rounded" :style="{ backgroundColor: `rgba(${v.r}, ${v.g}, ${v.b}, ${v.a})` }" />
+        <span>{{ `rgba(${v.r},${v.g},${v.b},${v.a})` }}</span>
+        <label><input min="0" max="1" type="range" step="0.005" v-model="proportions[k]"
+            @input="proportionChange(+($event.target as HTMLInputElement).value, k)" />{{ proportions[k] }}</label>
+      </div>
+    </div>
+  </details>
+  <details open>
+    <summary>colors</summary>
+    <div class="flex flex-wrap font-mono">
+      <label class="flex items-center" v-for="v of colors">
+        <input type="checkbox" :value="v" v-model="colorsSelected" />
+        <div class="mx-2 w-8 h-4 rounded" :style="{ backgroundColor: `rgba(${v.r}, ${v.g}, ${v.b}, ${v.a})` }" />
+        <span>{{ `rgba(${v.r},${v.g},${v.b},${v.a})` }}</span>
+      </label>
+    </div>
+  </details>
   <table class='whitespace-nowrap'>
     <thead>
       <tr>

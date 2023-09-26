@@ -102,6 +102,14 @@ onMounted(() => {
           <input type="checkbox" :name="vv['id']" :value="vv['id']" v-model="related" :disabled="search.length !== 0" />
           <i @click.stop.capture="dataTeleport = vv['id']"
             class="icon-[icon-park-solid--view-grid-detail] text-slate-500 cursor-pointer" />
+          <div v-if="k === 'suffixes' && vv['partsOfSpeech'].includes('v')"
+            class="border-solid w-2 h-1/2 rounded bg-purple-300 dark:bg-purple-800" />
+          <div v-if="k === 'suffixes' && vv['partsOfSpeech'].includes('n')"
+            class="border-solid w-2 h-1/2 rounded bg-rose-300 dark:bg-rose-800" />
+          <div v-if="k === 'suffixes' && vv['partsOfSpeech'].includes('adj')"
+            class="border-solid w-2 h-1/2 rounded bg-orange-300 dark:bg-orange-800" />
+          <div v-if="k === 'suffixes' && vv['partsOfSpeech'].includes('adv')"
+            class="border-solid w-2 h-1/2 rounded bg-sky-300 dark:bg-sky-800" />
           <i>{{ Object.keys(vv.words).join(',') }}</i>
         </div>
       </div>

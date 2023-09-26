@@ -1,5 +1,35 @@
 [
   {
+    "words": { "ate": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "state or quality of (adj.), makes the word a verb (different pronunciation)",
+    "description": "",
+    "partsOfSpeech": ["v", "adj"]
+  },
+  {
+    "words": { "en": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "makes the word a verb",
+    "description": "",
+    "partsOfSpeech": ["v"]
+  },
+  {
+    "words": {
+      "fy": { "meaning": "", "descriptions": [] },
+      "ify": { "meaning": "", "descriptions": [] }
+    },
+    "sameMeaning": "make, cause (makes the word a verb)",
+    "description": "",
+    "partsOfSpeech": ["v"]
+  },
+  {
+    "words": {
+      "ise": { "meaning": "", "descriptions": [] },
+      "ize": { "meaning": "", "descriptions": [] }
+    },
+    "sameMeaning": "cause, treat, become",
+    "description": "",
+    "partsOfSpeech": ["v"]
+  },
+  {
     "words": {
       "able": {
         "meaning": "able to do something",
@@ -17,6 +47,57 @@
     "sameMeaning": "capable of or suitable for",
     "description": "",
     "partsOfSpeech": ["v", "n", "adj"]
+  },
+  {
+    "words": { "ly": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "in what manner",
+    "description": "",
+    "partsOfSpeech": ["adj", "adv"]
+  },
+  {
+    "words": { "ily": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "in what manner",
+    "description": "",
+    "partsOfSpeech": ["adj", "adv"]
+  },
+  {
+    "words": { "like": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "indicates that something is done in a manner similar to the noun",
+    "description": "",
+    "partsOfSpeech": ["adj", "adv"]
+  },
+  {
+    "words": { "wise": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "in what manner or direction",
+    "description": "",
+    "partsOfSpeech": ["adj", "adv"]
+  },
+  {
+    "words": { "ways": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "indicates the manner or way in which something is done",
+    "description": "",
+    "partsOfSpeech": ["n", "adj", "adv"]
+  },
+  {
+    "words": {
+      "ward": { "meaning": "", "descriptions": [] },
+      "wards": { "meaning": "", "descriptions": [] }
+    },
+    "sameMeaning": "specifies direction, having the qualities of, in the direction of, towards",
+    "description": "",
+    "partsOfSpeech": ["v", "n", "adj", "adv"]
+  },
+  {
+    "words": { "fold": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "repeated a certain number of times",
+    "description": "",
+    "partsOfSpeech": ["n", "adj", "adv"]
+  },
+  {
+    "words": { "long": { "meaning": "", "descriptions": [] } },
+    "sameMeaning": "for a long period of time",
+    "description": "",
+    "partsOfSpeech": ["n", "adj", "adv"]
   },
   {
     "words": {
@@ -150,12 +231,6 @@
     "partsOfSpeech": ["n", "adj"]
   },
   {
-    "words": { "ate": { "meaning": "", "descriptions": [] } },
-    "sameMeaning": "state or quality of (adj.), makes the word a verb (different pronunciation)",
-    "description": "",
-    "partsOfSpeech": ["v", "adj"]
-  },
-  {
     "words": { "ative": { "meaning": "", "descriptions": [] } },
     "sameMeaning": "tending to (adj.)",
     "description": "",
@@ -265,12 +340,6 @@
     "partsOfSpeech": ["n"]
   },
   {
-    "words": { "en": { "meaning": "", "descriptions": [] } },
-    "sameMeaning": "makes the word a verb",
-    "description": "",
-    "partsOfSpeech": ["v"]
-  },
-  {
     "words": { "ency": { "meaning": "", "descriptions": [] } },
     "sameMeaning": "condition or quality",
     "description": "",
@@ -336,12 +405,6 @@
     "sameMeaning": "full of",
     "description": "",
     "partsOfSpeech": ["adj"]
-  },
-  {
-    "words": { "fy": { "meaning": "", "descriptions": [] } },
-    "sameMeaning": "make, cause (makes the word a verb)",
-    "description": "",
-    "partsOfSpeech": ["v"]
   },
   {
     "words": {
@@ -421,22 +484,10 @@
     "partsOfSpeech": ["adj"]
   },
   {
-    "words": { "ify": { "meaning": "", "descriptions": [] } },
-    "sameMeaning": "",
-    "description": "",
-    "partsOfSpeech": ["v"]
-  },
-  {
     "words": { "ile": { "meaning": "", "descriptions": [] } },
     "sameMeaning": "relating to, capable of",
     "description": "",
     "partsOfSpeech": ["adj"]
-  },
-  {
-    "words": { "ily": { "meaning": "", "descriptions": [] } },
-    "sameMeaning": "in what manner",
-    "description": "",
-    "partsOfSpeech": ["adv"]
   },
   {
     "words": { "ine": { "meaning": "", "descriptions": [] } },
@@ -523,15 +574,6 @@
     "partsOfSpeech": ["adj"]
   },
   {
-    "words": {
-      "ise": { "meaning": "", "descriptions": [] },
-      "ize": { "meaning": "", "descriptions": [] }
-    },
-    "sameMeaning": "cause, treat, become",
-    "description": "",
-    "partsOfSpeech": ["v"]
-  },
-  {
     "words": { "less": { "meaning": "", "descriptions": [] } },
     "sameMeaning": "without",
     "description": "",
@@ -572,12 +614,6 @@
     "sameMeaning": "speech",
     "description": "",
     "partsOfSpeech": ["n", "adj"]
-  },
-  {
-    "words": { "ly": { "meaning": "", "descriptions": [] } },
-    "sameMeaning": "in what manner",
-    "description": "",
-    "partsOfSpeech": ["adj", "adv"]
   },
   {
     "words": { "ment": { "meaning": "", "descriptions": [] } },
@@ -791,25 +827,10 @@
     "partsOfSpeech": ["n", "adj"]
   },
   {
-    "words": {
-      "ward": { "meaning": "", "descriptions": [] },
-      "wards": { "meaning": "", "descriptions": [] }
-    },
-    "sameMeaning": "specifies direction",
-    "description": "",
-    "partsOfSpeech": ["adj", "adv"]
-  },
-  {
     "words": { "ware": { "meaning": "ware of", "descriptions": [] } },
     "sameMeaning": "things of the same type or material",
     "description": "",
     "partsOfSpeech": ["n"]
-  },
-  {
-    "words": { "wise": { "meaning": "", "descriptions": [] } },
-    "sameMeaning": "in what manner or direction",
-    "description": "",
-    "partsOfSpeech": ["adj", "adv"]
   },
   {
     "words": { "y": { "meaning": "", "descriptions": [] } },
