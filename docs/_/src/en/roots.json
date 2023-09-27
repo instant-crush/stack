@@ -8466,10 +8466,11 @@
   },
   {
     "words": {
-      "teg": { "meaning": "", "description": "" },
-      "tect": { "meaning": "", "description": "" }
+      "teg": { "meaning": "to cover", "description": "" },
+      "tegr": { "meaning": "to protect", "description": "" },
+      "tect": { "meaning": "to protect", "description": "" }
     },
-    "sameMeaning": "cover",
+    "sameMeaning": "to cover, to protect",
     "description": ""
   },
   {
