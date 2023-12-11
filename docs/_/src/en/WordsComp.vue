@@ -14,7 +14,7 @@ const clear = () => {
 }
 const search = ref('')
 const query = (v: string) => {
-  search.value = v
+  search.value = v.toLowerCase()
 }
 
 const origin = { prefixes, suffixes, roots }
@@ -63,7 +63,7 @@ onMounted(() => {
       @keypress.enter="query((($event.target) as HTMLInputElement).value)" />
   </div>
   <div class="flex flex-col">
-    <details v-for="(v, k) of all" :key="nanoid()" :open="related.length !== 0">
+    <details v-for="(v, k) of all" :key="nanoid()" open>
       <summary class="!m-0 cursor-pointer">
         <span>{{ k }}{{ ':' }}</span>
         <div class="flex flex-col">
@@ -100,7 +100,7 @@ onMounted(() => {
         <div v-for="vv of v" :key="nanoid()" :data-teleport="vv['id']"
           :class="['rounded flex items-center relative mr-2', dataTeleport === vv['id'] ? 'bg-slate-200 dark:bg-slate-700' : '']">
           <input type="checkbox" :name="vv['id']" :value="vv['id']" v-model="related" :disabled="search.length !== 0" />
-          <i @click.stop.capture="dataTeleport = vv['id']"
+          <i @click.stop="dataTeleport = vv['id']"
             class="icon-[icon-park-solid--view-grid-detail] text-slate-500 cursor-pointer" />
           <div v-if="k === 'suffixes' && vv['partsOfSpeech'].includes('v')"
             class="border-solid w-2 h-1/2 rounded bg-purple-300 dark:bg-purple-800" />

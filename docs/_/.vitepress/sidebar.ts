@@ -72,5 +72,21 @@ export default {
         },
       ],
     },
+    {
+      text: 'Flash cards',
+      link: '',
+      items: [
+        {
+          text: 'prefixes/suffixes',
+          link: '/en/prefixes_suffixes',
+          items: [],
+        },
+        {
+          text: 'roots',
+          link: '/en/roots',
+          items: [],
+        },
+      ],
+    },
   ],
 }
