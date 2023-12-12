@@ -1,11 +1,11 @@
 <script setup>
-import ToneComp from './ToneComp.vue'
+// import ToneComp from './ToneComp.vue'
 import GraphComp from './GraphComp.vue'
 </script>
 
 # en
 
-<ToneComp />
+<!-- <ToneComp /> -->
 <GraphComp />
 
 ## Prepositions

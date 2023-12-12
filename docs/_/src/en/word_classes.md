@@ -1,7 +1,3 @@
-<script setup>
-import TenseComp from './TenseComp.vue'
-</script>
-
 # Word Classes
 
 ## major
@@ -73,8 +69,6 @@ The major word classes in English are nouns, verbs, adjectives, and adverbs. The
 | ought to | ought to       | ought to    | ought to        | ought toing        | ought to |
 
 ##### Rules
-
-<TenseComp />
 
 ### Adjective
 

@@ -66,6 +66,11 @@ export default {
           items: [],
         },
         {
+          text: 'tense',
+          link: '/en/tense',
+          items: [],
+        },
+        {
           text: 'Word Classes',
           link: '/en/word_classes',
           items: [],
