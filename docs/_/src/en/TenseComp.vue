@@ -2,7 +2,9 @@
 import { nanoid } from 'nanoid'
 import { computed, ref, watch } from 'vue'
 
-const detailsOpend = ref(false)
+const isEgs = ref(false)
+const isNegative = ref(false)
+const isInterrogative = ref(false)
 const heads = ref([
   'times/states',
   'past',
@@ -12,368 +14,329 @@ const heads = ref([
 ])
 const data = ref({
   simple: [
-    [
-      [
-        { rule: 'S + was/were + N', eg: 'I was a developer.' },
-        { rule: 'S + V2', eg: 'I developed apps.' },
+    {
+      positive: [
+        { rule: 'S + was/were + N', egs: ['I was a developer.' ] },
+        { rule: 'S + V2', egs: ['I developed apps.' ] },
       ],
-      [
-        { rule: 'S + was/were not + N', eg: 'I was not a developer.' },
-        { rule: 'S + did not + V1', eg: 'I did not develop apps.' },
+      negative: [
+        { rule: 'S + was/were not + N', egs: ['I was not a developer.' ] },
+        { rule: 'S + did not + V1', egs: ['I did not develop apps.' ] },
       ],
-      [
-        { rule: 'Was/Were + S + N + ?', eg: 'Were you a developer?' },
-        { rule: 'Did + S + V1 + ?', eg: 'Did you develop apps?' },
+      interrogative: [
+        { rule: 'Was/Were + S + N + ?', egs: ['Were you a developer?' ] },
+        { rule: 'Did + S + V1 + ?', egs: ['Did you develop apps?' ] },
       ],
-    ],
-    [
-      [
-        { rule: 'S + am/is/are + N', eg: 'I am a developer.' },
-        { rule: 'S + V1', eg: 'I develop apps.' },
+    },
+    {
+      positive: [
+        { rule: 'S + am/is/are + N', egs: ['I am a developer.' ] },
+        { rule: 'S + V1', egs: ['I develop apps.' ] },
       ],
-      [
-        { rule: 'S + am/is/are not + N', eg: 'I am not a developer.' },
-        { rule: 'S + do/does not + V1', eg: 'I do not develop apps.' },
+      negative: [
+        { rule: 'S + am/is/are not + N', egs: ['I am not a developer.' ] },
+        { rule: 'S + do/does not + V1', egs: ['I do not develop apps.' ] },
       ],
-      [
-        { rule: 'Am/Is/Are + S + N + ?', eg: 'Am I a developer?' },
-        { rule: 'Do/Does + S + V1 + ?', eg: 'Do I develop apps?' },
+      interrogative: [
+        { rule: 'Am/Is/Are + S + N + ?', egs: ['Am I a developer?' ] },
+        { rule: 'Do/Does + S + V1 + ?', egs: ['Do I develop apps?' ] },
       ],
-    ],
-    [
-      [
-        { rule: 'S + will + be + N', eg: 'I will be a developer.' },
-        { rule: 'S + will + V1', eg: 'I will develop apps.' },
+    },
+    {
+      positive: [
+        { rule: 'S + will + be + N', egs: ['I will be a developer.' ] },
+        { rule: 'S + will + V1', egs: ['I will develop apps.' ] },
       ],
-      [
-        { rule: 'S + will not + be + N', eg: 'I will not be a developer.' },
-        { rule: 'S + will not + V1', eg: 'I will not develop apps.' },
+      negative: [
+        { rule: 'S + will not + be + N', egs: ['I will not be a developer.' ] },
+        { rule: 'S + will not + V1', egs: ['I will not develop apps.' ] },
       ],
-      [
-        { rule: 'Will + S + be + N + ?', eg: 'Will I be a developer?' },
-        { rule: 'Will + S + V1 + ?', eg: 'Will I develop apps?' },
+      interrogative: [
+        { rule: 'Will + S + be + N + ?', egs: ['Will I be a developer?' ] },
+        { rule: 'Will + S + V1 + ?', egs: ['Will I develop apps?' ] },
       ],
-    ],
-    [
-      [
-        { rule: 'S + would + be + N', eg: 'I thought he would be a developer.' },
-        { rule: 'S + would + V1', eg: 'I thought he would develop apps.' },
+    },
+    {
+      positive: [
+        { rule: 'S + would + be + N', egs: ['I thought he would be a developer.' ] },
+        { rule: 'S + would + V1', egs: ['I thought he would develop apps.' ] },
       ],
-      [
+      negative: [
         {
           rule: 'S + would not + be + N',
-          eg: 'I thought he would not be a developer.',
+          egs: ['I thought he would not be a developer.'],
         },
         {
           rule: 'S + would not + V1',
-          eg: 'I thought he would not develop apps.',
+          egs: ['I thought he would not develop apps.'],
         },
       ],
-      [
-        { rule: 'Would + S + be + N + ?', eg: 'Would he be a developer?' },
-        { rule: 'Would + S + V1 + ?', eg: 'Would he develop apps?' },
+      interrogative: [
+        { rule: 'Would + S + be + N + ?', egs: ['Would he be a developer?' ] },
+        { rule: 'Would + S + V1 + ?', egs: ['Would he develop apps?' ] },
       ],
-    ],
+    },
   ],
   perfect: [
-    [
-      [
-        { rule: 'S + had been + N', eg: 'I had been a developer.' },
-        { rule: 'S + had + V3', eg: 'I had developed apps.' },
+    {
+      positive: [
+        { rule: 'S + had been + N', egs: ['I had been a developer.' ] },
+        { rule: 'S + had + V3', egs: ['I had developed apps.' ] },
       ],
-      [
-        { rule: 'S + had not been + N', eg: 'I had not been a developer.' },
-        { rule: 'S + had not + V3', eg: 'I had not developed apps.' },
+      negative: [
+        { rule: 'S + had not been + N', egs: ['I had not been a developer.' ] },
+        { rule: 'S + had not + V3', egs: ['I had not developed apps.' ] },
       ],
-      [
-        { rule: 'Had + S + been + N +?', eg: 'Had I been a developer?' },
-        { rule: 'Had + S + V3 + ?', eg: 'Had I developed apps?' },
+      interrogative: [
+        { rule: 'Had + S + been + N +?', egs: ['Had I been a developer?' ] },
+        { rule: 'Had + S + V3 + ?', egs: ['Had I developed apps?' ] },
       ],
-    ],
-    [
-      [
-        { rule: 'S + have/has been + N', eg: 'I have been a developer.' },
-        { rule: 'S + have/has + V3', eg: 'I have developed apps.' },
+    },
+    {
+      positive: [
+        { rule: 'S + have/has been + N', egs: ['I have been a developer.' ] },
+        { rule: 'S + have/has + V3', egs: ['I have developed apps.' ] },
       ],
-      [
-        { rule: 'S + have/has not been + N', eg: 'I have not been a developer.' },
-        { rule: 'S + have/has not + V3', eg: 'I have not developed apps.' },
+      negative: [
+        { rule: 'S + have/has not been + N', egs: ['I have not been a developer.' ] },
+        { rule: 'S + have/has not + V3', egs: ['I have not developed apps.' ] },
       ],
-      [
-        { rule: 'Have/Has + S + been + N + ?', eg: 'Have I been a developer?' },
-        { rule: 'Have/Has + S + V3 + ?', eg: 'Have I developed apps?' },
+      interrogative: [
+        { rule: 'Have/Has + S + been + N + ?', egs: ['Have I been a developer?' ] },
+        { rule: 'Have/Has + S + V3 + ?', egs: ['Have I developed apps?' ] },
       ],
-    ],
-    [
-      [
-        { rule: 'S + will have been + N', eg: 'I will have been a developer.' },
-        { rule: 'S + will have + V3', eg: 'I will have developed apps.' },
+    },
+    {
+      positive: [
+        { rule: 'S + will have been + N', egs: ['I will have been a developer.' ] },
+        { rule: 'S + will have + V3', egs: ['I will have developed apps.' ] },
       ],
-      [
+      negative: [
         {
           rule: 'S + will not have been + N',
-          eg: 'I will not have been a developer.',
+          egs: ['I will not have been a developer.'],
         },
         {
           rule: 'S + will not have + V3',
-          eg: 'I will not have developed apps.',
+          egs: ['I will not have developed apps.'],
         },
       ],
-      [
-        { rule: 'Will + S + have been + N + ?', eg: 'Will I have been a developer?' },
-        { rule: 'Will + S + have + V3 + ?', eg: 'Will I have developed apps?' },
+      interrogative: [
+        { rule: 'Will + S + have been + N + ?', egs: ['Will I have been a developer?' ] },
+        { rule: 'Will + S + have + V3 + ?', egs: ['Will I have developed apps?' ] },
       ],
-    ],
-    [
-      [
+    },
+    {
+      positive: [
         {
           rule: 'S + would have been + N',
-          eg: 'I thought he would have been a developer.',
+          egs: ['I thought he would have been a developer.'],
         },
         {
           rule: 'S + would have + V3',
-          eg: 'I thought he would have developed apps.',
+          egs: ['I thought he would have developed apps.'],
         },
       ],
-      [
+      negative: [
         {
           rule: 'S + would not have been + N',
-          eg: 'I thought he would not have been a developer.',
+          egs: ['I thought he would not have been a developer.'],
         },
         {
           rule: 'S + would not have + V3',
-          eg: 'I thought he would not have developed apps.',
+          egs: ['I thought he would not have developed apps.'],
         },
       ],
-      [
+      interrogative: [
         {
           rule: 'Would + S + have been + N +?',
-          eg: 'Would he have been a developer?',
+          egs: ['Would he have been a developer?'],
         },
-        { rule: 'Would + S + have + V3 + ?', eg: 'Would he have developed apps?' },
+        { rule: 'Would + S + have + V3 + ?', egs: ['Would he have developed apps?' ] },
       ],
-    ],
+    },
   ],
   continuous: [
-    [
-      [
-        { rule: 'S + was/were + being + N', eg: 'I was being a developer.' },
-        { rule: 'S + was/were + Ving', eg: 'I was developing apps.' },
+    {
+      positive: [
+        { rule: 'S + was/were + being + N', egs: ['I was being a developer.' ] },
+        { rule: 'S + was/were + Ving', egs: ['I was developing apps.' ] },
       ],
-      [
+      negative: [
         {
           rule: 'S + was/were not + being + N',
-          eg: 'I was not being a developer.',
+          egs: ['I was not being a developer.'],
         },
-        { rule: 'S + was/were not + Ving', eg: 'I was not developing apps.' },
+        { rule: 'S + was/were not + Ving', egs: ['I was not developing apps.' ] },
       ],
-      [
+      interrogative: [
         {
           rule: 'Was/Were + S + being + N + ?',
-          eg: 'Were you being a developer?',
+          egs: ['Were you being a developer?'],
         },
-        { rule: 'Was/Were + S + Ving + ?', eg: 'Were you developing apps?' },
+        { rule: 'Was/Were + S + Ving + ?', egs: ['Were you developing apps?' ] },
       ],
-    ],
-    [
-      [
-        { rule: 'S + am/is/are + being + N', eg: 'I am being a developer.' },
-        { rule: 'S + am/is/are + Ving', eg: 'I am developing apps.' },
+    },
+    {
+      positive: [
+        { rule: 'S + am/is/are + being + N', egs: ['I am being a developer.' ] },
+        { rule: 'S + am/is/are + Ving', egs: ['I am developing apps.' ] },
       ],
-      [
+      negative: [
         {
           rule: 'S + am/is/are not + being + N',
-          eg: 'I am not being a developer.',
+          egs: ['I am not being a developer.'],
         },
-        { rule: 'S + am/is/are not + Ving', eg: 'I am not developing apps.' },
+        { rule: 'S + am/is/are not + Ving', egs: ['I am not developing apps.' ] },
       ],
-      [
+      interrogative: [
         {
           rule: 'Am/Is/Are + S + being + N + ?',
-          eg: 'Am I being a developer?',
+          egs: ['Am I being a developer?'],
         },
-        { rule: 'Am/Is/Are + S + Ving + ?', eg: 'Am I developing apps?' },
+        { rule: 'Am/Is/Are + S + Ving + ?', egs: ['Am I developing apps?' ] },
       ],
-    ],
-    [
-      [
+    },
+    {
+      positive: [
         {
-          rule: 'S + will be + being + N',
-          eg: 'I will be being a developer.',
-        },
-        { rule: 'S + will be + Ving', eg: 'I will be developing apps.' },
-      ],
-      [
-        {
-          rule: 'S + will not be + being + N',
-          eg: 'I will not be being a developer.',
-        },
-        {
-          rule: 'S + will not be + Ving',
-          eg: 'I will not be developing apps.',
+          rule: 'S + will be + N/Ving',
+          egs: ['I will be a developer.', 'I will be developing apps.'],
         },
       ],
-      [
+      negative: [
         {
-          rule: 'Will + S + be + being + N + ?',
-          eg: 'Will I be being a developer?',
-        },
-        { rule: 'Will + S + be + Ving + ?', eg: 'Will I be developing apps?' },
-      ],
-    ],
-    [
-      [
-        {
-          rule: 'S + would be + being + N',
-          eg: 'I thought he would be being a developer.',
-        },
-        {
-          rule: 'S + would be + Ving',
-          eg: 'I thought he would be developing apps.',
+          rule: 'S + will not be + N/Ving',
+          egs: ['I will not be a developer.', 'I will not be developing apps.'],
         },
       ],
-      [
+      interrogative: [
         {
-          rule: 'S + would not be + being + N',
-          eg: 'I thought he would not be being a developer.',
-        },
-        {
-          rule: 'S + would not be + Ving',
-          eg: 'I thought he would not be developing apps.',
+          rule: 'Will + S + be + N/Ving + ?',
+          egs: ['Will I be a developer?', 'Will I be developing apps?'],
         },
       ],
-      [
+    },
+    {
+      positive: [
         {
-          rule: 'Would + S + be + being + N + ?',
-          eg: 'Would he be being a developer?',
+          rule: 'S + would be + N/Ving',
+          egs: ['I thought he would be a developer.', 'I thought he would be developing apps.'],
         },
-        { rule: 'Would + S + be + Ving + ?', eg: 'Would he be developing apps?' },
       ],
-    ],
+      negative: [
+        {
+          rule: 'S + would not be + N/Ving',
+          egs: ['I thought he would not be being a developer.', 'I thought he would not be developing apps.'],
+        },
+      ],
+      interrogative: [
+        {
+          rule: 'Would + S + be + N/Ving + ?',
+          egs: ['Would he be a developer?', 'Would he be developing apps?'],
+        },
+      ],
+    },
   ],
   'perfect continuous': [
-    [
-      [
+    {
+      positive: [
         {
           rule: 'S + had been + being + N',
-          eg: 'I had been being a developer.',
+          egs: ['I had been being a developer.'],
         },
-        { rule: 'S + had been + Ving', eg: 'I had been developing apps.' },
+        { rule: 'S + had been + Ving', egs: ['I had been developing apps.' ] },
       ],
-      [
+      negative: [
         {
           rule: 'S + had not been + being + N',
-          eg: 'I had not been being a developer.',
+          egs: ['I had not been being a developer.'],
         },
         {
           rule: 'S + had not been + Ving',
-          eg: 'I had not been developing apps.',
+          egs: ['I had not been developing apps.'],
         },
       ],
-      [
+      interrogative: [
         {
           rule: 'Had + S + been + being + N + ?',
-          eg: 'Had I been being a developer?',
+          egs: ['Had I been being a developer?'],
         },
-        { rule: 'Had + S + been + Ving + ?', eg: 'Had I been developing apps?' },
+        { rule: 'Had + S + been + Ving + ?', egs: ['Had I been developing apps?' ] },
       ],
-    ],
-    [
-      [
+    },
+    {
+      positive: [
         {
           rule: 'S + have/has been + being + N',
-          eg: 'I have been being a developer.',
+          egs: ['I have been being a developer.'],
         },
         {
           rule: 'S + have/has been + Ving',
-          eg: 'I have been developing apps.',
+          egs: ['I have been developing apps.'],
         },
       ],
-      [
+      negative: [
         {
           rule: 'S + have/has not been + being + N',
-          eg: 'I have not been being a developer.',
+          egs: ['I have not been being a developer.'],
         },
         {
           rule: 'S + have/has not been + Ving',
-          eg: 'I have not been developing apps.',
+          egs: ['I have not been developing apps.'],
         },
       ],
-      [
+      interrogative: [
         {
           rule: 'Have/Has + S + been + being + N + ?',
-          eg: 'Have I been being a developer?',
+          egs: ['Have I been being a developer?'],
         },
         {
           rule: 'Have/Has + S + been + Ving + ?',
-          eg: 'Have I been developing apps?',
+          egs: ['Have I been developing apps?'],
         },
       ],
-    ],
-    [
-      [
+    },
+    {
+      positive: [
         {
-          rule: 'S + will have been + being + N',
-          eg: 'I will have been being a developer.',
-        },
-        {
-          rule: 'S + will have been + Ving',
-          eg: 'I will have been developing apps.',
+          rule: 'S + will have been + N/Ving',
+          egs: ['I will have been a developer.', 'I will have been developing apps.'],
         },
       ],
-      [
+      negative: [
         {
-          rule: 'S + will not have been + being + N',
-          eg: 'I will not have been being a developer.',
-        },
-        {
-          rule: 'S + will not have been + Ving',
-          eg: 'I will not have been developing apps.',
+          rule: 'S + will not have been + N/Ving',
+          egs: ['I will not have been a developer.', 'I will not have been developing apps.'],
         },
       ],
-      [
+      interrogative: [
         {
-          rule: 'Will + S + have been + being + N + ?',
-          eg: 'Will I have been being a developer?',
-        },
-        {
-          rule: 'Will + S + have been + Ving + ?',
-          eg: 'Will I have been developing apps?',
+          rule: 'Will + S + have been + N/Ving + ?',
+          egs: ['Will I have been being a developer?', 'Will I have been developing apps?'],
         },
       ],
-    ],
-    [
-      [
+    },
+    {
+      positive: [
         {
-          rule: 'S + would have been + being + N',
-          eg: 'I thought he would have been being a developer.',
-        },
-        {
-          rule: 'S + would have been + Ving',
-          eg: 'I thought he would have been developing apps.',
+          rule: 'S + would have been + N/Ving',
+          egs: ['I thought he would have been a developer.', 'I thought he would have been developing apps.'],
         },
       ],
-      [
+      negative: [
         {
-          rule: 'S + would not have been + being + N',
-          eg: 'I thought he would not have been being a developer.',
-        },
-        {
-          rule: 'S + would not have been + Ving',
-          eg: 'I thought he would not have been developing apps.',
+          rule: 'S + would not have been + N/Ving',
+          egs: ['I thought he would not have been being a developer.', 'I thought he would not have been developing apps.'],
         },
       ],
-      [
+      interrogative: [
         {
-          rule: 'Would + S + have been + being + N + ?',
-          eg: 'Would he have been being a developer?',
-        },
-        {
-          rule: 'Would + S + have been + Ving + ?',
-          eg: 'Would he have been developing apps?',
+          rule: 'Would + S + have been + N/Ving + ?',
+          egs: ['Would he have been being a developer?', 'Would he have been developing apps?'],
         },
       ],
-    ],
+    },
   ],
 })
 const colors = ref<{ r: number; g: number; b: number; a: number }[]>([
@@ -425,7 +388,7 @@ const proportionChange = (v: number, index: number) => {
 }
 </script>
 <template>
-  <details open>
+  <!-- <details open>
     <summary>operations & result</summary>
     <button @click="colorsAdd">colors add</button>
     <div>
@@ -469,50 +432,46 @@ const proportionChange = (v: number, index: number) => {
         <span>{{ `rgba(${v.r},${v.g},${v.b},${v.a})` }}</span>
       </label>
     </div>
-  </details>
+  </details> -->
+  <div class="flex flex-col items-start mt-5">
+    <button @click="isEgs = !isEgs" :class="['mb-1 border border-solid px-2 rounded-md', isEgs ? 'text-green-500' : '']">egs</button>
+    <button @click="isNegative = !isNegative" :class="['mb-1 border border-solid px-2 rounded-md', isNegative ? 'text-green-500' : '']">negatives</button>
+    <button @click="isInterrogative = !isInterrogative" :class="['border border-solid px-2 rounded-md', isInterrogative ? 'text-green-500' : '']">interrogatives</button>
+  </div>
   <table class="whitespace-nowrap">
     <thead>
       <tr>
-        <th v-for="(head, headKey) in Object.values(heads)" :key="nanoid()">
-          <li
-            v-if="headKey === 0"
-            @click="detailsOpend = !detailsOpend"
-            class="cursor-pointer"
-            :style="{
-              listStyle: detailsOpend
-                ? 'inside disclosure-open'
-                : 'inside disclosure-closed',
-              listStyleType: detailsOpend
-                ? 'disclosure-open'
-                : 'disclosure-closed',
-            }"
-          >
-            {{ head }}
-          </li>
-          <span v-else>{{ head }}</span>
-        </th>
+        <th v-for="head in Object.values(heads)" :key="nanoid()">{{ head }}</th>
       </tr>
     </thead>
     <tbody>
-      <tr v-for="(tr, th) in data" :key="nanoid()">
+      <tr class="border" v-for="(tr, th) in data" :key="nanoid()">
         <th>
           {{ th }}
         </th>
         <td class="!p-0" v-for="tds in tr" :key="nanoid()">
-          <div :class="['border-dotted border-slate-200 dark:border-slate-700', sentenceTypeK !== 0 ? 'border-t-2' : '']" v-for="(sentenceType, sentenceTypeK) of tds" :key="nanoid()">
-            <div class="flex flex-nowrap items-baseline" v-for="dynamicOrStatic of sentenceType" :key="nanoid()">
-              <div class="mr-2 flex flex-nowrap" v-for="(item, itemK) of dynamicOrStatic.rule.split(' + ')" :key="nanoid()">
-                <div class="font-mono">
-                  <i v-if="itemK !== 0" class="text-xs text-slate-600 dark:text-slate-300">+</i>
-                  <span :class="[
-                    item === 'V1' ? 'verb-form-1' : '',
-                    item === 'V2' ? 'verb-form-2' : '',
-                    item === 'V3' ? 'verb-form-3' : '',
-                    item === 'Ving' ? 'verb-form-4' : ''
-                  ]">{{ item }}</span>
+          <div :class="['']" v-for="(sentenceType, sentenceTypeK, sentenceTypeI) of tds" :key="nanoid()">
+            <div v-show="sentenceTypeK === 'positive' || (sentenceTypeK === 'negative' && isNegative) || (sentenceTypeK === 'interrogative' && isInterrogative)" class="flex flex-col leading-none" v-for="dynamicOrStatic of sentenceType" :key="nanoid()">
+              <div class="flex flex-nowrap">
+                <div class="mr-2 flex flex-nowrap" v-for="(item, itemK) of dynamicOrStatic.rule.split(' + ')" :key="nanoid()">
+                  <div class="font-mono">
+                    <i v-if="itemK !== 0" class="text-xs text-slate-600 dark:text-slate-300">+</i>
+                    <span v-if="item === 'N/Ving'">
+                      <i>N/</i>
+                      <i class="verb-form-4">Ving</i>
+                    </span>
+                    <span v-else :class="[
+                      item === 'V1' ? 'verb-form-1' : '',
+                      item === 'V2' ? 'verb-form-2' : '',
+                      item === 'V3' ? 'verb-form-3' : '',
+                      item === 'Ving' ? 'verb-form-4' : ''
+                    ]">{{ item }}</span>
+                  </div>
                 </div>
               </div>
-              <div v-show="detailsOpend" class="text-xs text-slate-500 dark:text-slate-400">{{ dynamicOrStatic.eg }}</div>
+              <div v-show="isEgs" class="flex flex-col text-xs text-slate-500 dark:text-slate-400" v-for="eg of dynamicOrStatic.egs" :key="nanoid()">
+                <span>{{ eg }}</span>
+              </div>
             </div>
           </div>
         </td>
